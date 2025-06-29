@@ -1,12 +1,21 @@
 import Navbar from '../components/Navbar';
+import Header from '../components/Header';
+import Projects from '../components/Projects';
+import Skills from '../components/Skills';
+import Contact from '../components/Contact';
+import '../css/App.css';
 
 const Login = () => {
     return (
-
-        <div className="d-flex" style={{ width: '100%', height: '100%' }}>
+        < div className="app" >
             <Navbar />
-        </div>
-
+            <Header />
+            <main>
+                <Projects />
+                <Skills />
+            </main>
+            <Contact />
+        </div >
     );
 };
 
