@@ -3,16 +3,17 @@ const Skills = () => {
   const skills = ["React", "Node.js", "Serverless", "Docker"];
   
   return (
-    <section className="skills-section">
-      <h2>Skills</h2>
-      <div className="skills-container">
-        {skills.map((skill, index) => (
-          <div key={index} className="skill-badge">
-            {skill}
-          </div>
-        ))}
-      </div>
-    </section>
+    <section id="skills" className="p-5 border-top">
+        <h2 className="mb-4 text-white">Skills</h2>
+        <div className="d-flex flex-wrap gap-4 justify-content-center">
+          {skills.map((skill, index) => (
+            <div key={index} className="text-center text-white">
+              <div className="fs-1">🔧</div>
+              <div>{skill}</div>
+            </div>
+          ))}
+        </div>
+      </section>
   );
 };
 

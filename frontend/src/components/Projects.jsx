@@ -1,52 +1,45 @@
 
 
 const Projects = () => {
-  const projects = [
+  const proyectos = [
     {
-      title: "ITManufacturing",
-      description: [
-        "Manufacturing",
-        "In corporation",
-        "Manufacturer"
-      ]
+      titulo: "ITManufacturing",
+      descripcion: "In corporation Manufacturer",
+      tecnologias: ["Brand"],
     },
     {
-      title: "E-commerce Platform",
-      description: [
-        "Framestend an lingering",
-        "constesill on optimal."
-      ]
+      titulo: "E-commerce Platform",
+      descripcion: "Frontend and linparing constestil on-optimal.",
+      tecnologias: ["React", "TypeScript"],
     },
     {
-      title: "React",
-      description: ["TS"]
+      titulo: "Task Management Tool",
+      descripcion: "For-aptniie professfam.",
+      tecnologias: ["Express", "AWS"],
     },
-    {
-      title: "Task Management Tool",
-      description: ["For-aptnie professfam."]
-    },
-    {
-      title: "express",
-      description: ["AWS"]
-    }
   ];
 
   return (
-    <section className="projects-section">
-      <h2>Proyectos</h2>
-      <div className="projects-grid">
-        {projects.map((project, index) => (
-          <div key={index} className="project-card">
-            <h3>{project.title}</h3>
-            <ul>
-              {project.description.map((item, i) => (
-                <li key={i}>{item}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-    </section>
+    <section id="projects" className="p-5">
+        <h2 className="mb-4 text-white">Proyectos</h2>
+        <div className="row">
+          {proyectos.map((proyecto, index) => (
+            <div key={index} className="col-md-4 mb-4">
+              <div className="card h-100 bg-dark text-white border border-secondary">
+                <div className="card-body">
+                  <h5 className="card-title text-primary">{proyecto.titulo}</h5>
+                  <p className="card-text">{proyecto.descripcion}</p>
+                  <div>
+                    {proyecto.tecnologias.map((tech, i) => (
+                      <span key={i} className="badge bg-primary me-2">{tech}</span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
   );
 };
 

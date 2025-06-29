@@ -3,7 +3,7 @@
 const Header = () => {
 
     return (
-        <header className="header">
+        /*<header className="header">
             <div className="container">
                 <h1>Hola, soy Emilio Yair Castillo Pacheco</h1>
                 <p>Experimentado en la creacion de paginas web y desarrollo de software.</p>
@@ -27,7 +27,13 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-        </header>
+        </header>*/
+
+        <section className="hero text-center p-5">
+        <h1 className="display-4 text-white">Hi, I'm <span className="text-primary">Web Developer</span></h1>
+        <p className="lead text-white">Experienced in building scalable web applications and services.</p>
+        <button className="btn btn-outline-primary mt-3">Get In Touch</button>
+      </section>
 
     );
 };

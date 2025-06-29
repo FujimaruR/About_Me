@@ -1,29 +1,13 @@
 const Navbar = () => {
     return (
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Emilio Yair Castillo Pacheco</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contactame</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <header className="d-flex justify-content-between align-items-center p-4 border-bottom flex-wrap">
+            <h3 className="text-primary">Emilio Yair Castillo Pacheco</h3>
+            <nav className="mt-2 mt-md-0">
+                <a href="#about" className="mx-2 text-white d-inline-block">Sobre mi</a>
+                <a href="#projects" className="mx-2 text-white d-inline-block">Proyectos</a>
+                <a href="#skills" className="mx-2 text-white d-inline-block">Contacto</a>
+            </nav>
+        </header>
     );
 };
 
