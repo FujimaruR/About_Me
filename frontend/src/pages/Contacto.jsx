@@ -1,18 +1,18 @@
 import Navbar from '../components/Navbar';
-import Projects from '../components/Projects';
+import Contactame from '../components/Contactame';
 import Footer from '../components/Footer';
 import '../css/App.css';
 
-const Contactame = () => {
+const Contacta = () => {
     return (
         < div className="app" >
             <Navbar />
             <main>
-                <Projects />
+                <Contactame />
             </main>
             <Footer />
         </div >
     );
 };
 
-export default Contactame;
+export default Contacta;

@@ -1,45 +1,56 @@
 body {
-  background-color: #121212;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
+    background-color: #121212;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
 .app {
-  min-height: 100vh;
-  background-color: #121212;
+    min-height: 100vh;
+    background-color: #121212;
 }
 
 .card {
-  transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .card:hover {
-  transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 nav a:hover {
-  text-decoration: underline;
-  color: #0d6efd;
+    text-decoration: underline;
+    color: #0d6efd;
 }
 
 footer {
-  background-color: #1a1a1a;
+    background-color: #1a1a1a;
 }
 
 @media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2rem;
-  }
-  .hero p {
-    font-size: 1rem;
-  }
-  nav a {
-    display: block;
-    margin: 0.5rem 0;
-    text-align: center;
-  }
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contacto form .col-lg-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    #contacto button {
+      width: 100%;
+    }
 }
