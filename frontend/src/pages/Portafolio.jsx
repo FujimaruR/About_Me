@@ -1,20 +1,18 @@
 import Navbar from '../components/Navbar';
-import Contactame from '../components/Contactame';
 import Footer from '../components/Footer';
+import MostrarPortafolio from '../components/MostrarPortafolio';
 import '../css/App.css';
-import Whatsapp from '../components/Whatsapp';
 
-const Contacta = () => {
+const Portafolio = () => {
     return (
         < div className="app" >
             <Navbar />
             <main>
-                <Whatsapp />
-                <Contactame />
+                <MostrarPortafolio />
             </main>
             <Footer />
         </div >
     );
 };
 
-export default Contacta;
+export default Portafolio;

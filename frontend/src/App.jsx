@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import SobreMi from './pages/SobreMi';
 import Proyectos from './pages/Proyectos';
 import Contacto from './pages/Contacto';
+import Portafolio from './pages/Portafolio';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route exact path="/EmilioCastillo" element={<SobreMi />}/>
           <Route exact path="/Proyectos" element={<Proyectos />}/>
           <Route exact path="/Contacto" element={<Contacto />}/>
+          <Route exact path="/Portafolio" element={<Portafolio />}/>
         </Route>
       </Routes>
     </Router>

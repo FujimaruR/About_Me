@@ -26,7 +26,7 @@ const ContactoConmigo = () => {
 
     return (
 
-        <section className="hero text-center p-5">
+        <section className="hero text-center p-5 border-top">
             <h1 className="mb-4 text-primary">Enviame un correo</h1>
             <form className="row g-3" onSubmit={sendEmail}>
                 <div className="col-lg-6">
