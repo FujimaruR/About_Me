@@ -1,29 +1,31 @@
 const proyectos = [
     {
         ID_Proyecto: '1',
-        titulo: "Calificaciones FIME",
-        descripcion: "Proyecto requerido por FIME para calificacion de maestros en cursos.",
+        titulo: "Reportes FIME",
+        descripcion: "Proyecto requerido por FIME para calificación de maestros en cursos.",
         tecnologias: ["React", "AWS"],
-        descripcionCorta: 'Gestión de alumnos y clases.',
-        imagenes: ['/img/escuela1.png', '/img/escuela2.png'],
-        descripcionLarga: 'Este sistema fue creado para...',
-        codigoEjemplo: `function sumar(a, b) {\n  return a + b;\n}`
+        descripcionCorta: "Desarrollo en React para FIME con la finalidad de facilitar la calificación de alumnos.",
+        imagenes: ['/img/Screen1_1.png', '/img/Screen2_1.png', '/img/Screen3_1.png'],
+        descripcionLarga: "Este desarrollo web fue creado para para que los maestros puedan calificar a los alumnos y se pueda tener un registro completo del curso. Ademas de encuestas a estos alumnos sobre los cursos que se llevaron y la administracion de informacion sobre los cursos.",
+        codigoEjemplo: `Las tecnologias que se usaron fue el uso de react y node.js, ademas de la base de datos en SQL para la gestion de informacion.\n
+Este desarrollo fue especialmente un reto para mi, ya que ademas se tuvo que hacer uso de una maquina virtual en linux en EC2 de AWS para hostear el desarrollo.`
     },
     {
         ID_Proyecto: '2',
         titulo: "E-commerce Estilo Aliexpress",
         descripcion: "Pagina web estilo Aliexpress.",
-        tecnologias: ["PHP", "Xampp"],
-        descripcionCorta: 'Carrito de compras con backend.',
-        imagenes: ['/img/tienda1.png', '/img/tienda2.png'],
-        descripcionLarga: 'Desarrollado con React y Express...',
-        codigoEjemplo: `app.get('/api/productos', (req, res) => res.json([]));`
+        tecnologias: ["PHP", "SQL"],
+        descripcionCorta: 'Desarrollo web de plataforma estilo e-commerce basada en aliexpress para compra y venta.',
+        imagenes: ['/img/Screen1_2.png', '/img/Screen2_2.png', '/img/Screen4_2.png', '/img/Screen3_2.png', '/img/Screen5_2.png'],
+        descripcionLarga: 'Pagina web estilo e-commerce para la compra y venta de productos. En esta pagina puedes ingresar como usuario para comprar, guardar y comentar productos, ademas de poder vender productos y tener chats de vendedor y cliente. ',
+        codigoEjemplo: `Se hizo uso de xampp como hosting local de la pagina, ademas de phpmyadmin para la base de datos.\n
+La pagina esta en el lenguaje de PHP.`
     },
     {
         ID_Proyecto: '3',
         titulo: "Calificador de videojuegos",
         descripcion: "Pagina web hecha para calificacion de videojuegos.",
-        tecnologias: ["React", "Xampp"],
+        tecnologias: ["React", "SQL"],
     },
     {
         ID_Proyecto: '4',
