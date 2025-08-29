@@ -23,9 +23,14 @@ La pagina esta en el lenguaje de PHP.`
     },
     {
         ID_Proyecto: '3',
-        titulo: "Calificador de videojuegos",
-        descripcion: "Pagina web hecha para calificacion de videojuegos.",
+        titulo: "Tilted Reviews",
+        descripcion: "Pagina web hecha para calificar videojuegos.",
         tecnologias: ["React", "SQL"],
+        descripcionCorta: 'Desarrollo web de plataforma para calificar videojuegos.',
+        imagenes: ['/img/Screen1_3.png', '/img/Screen2_3.png', '/img/Screen4_3.png', '/img/Screen3_3.png'],
+        descripcionLarga: 'Pagina web para calificar videojuegos. En esta pagina puedes ingresar como usuario y reseñar videojuegos, guardar tus favoritos, comentarlos y calificarlos. Ademas de poder ver las listas de otros usuarios. ',
+        codigoEjemplo: `Se hizo uso de xampp como hosting local de la pagina, ademas de phpmyadmin para la base de datos.\n
+La pagina esta en el lenguaje de React.`
     },
     {
         ID_Proyecto: '4',
