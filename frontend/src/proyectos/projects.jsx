@@ -34,15 +34,25 @@ La pagina esta en el lenguaje de React.`
     },
     {
         ID_Proyecto: '4',
-        titulo: "Mejora a pagina web",
-        descripcion: "Pagina web hecha para mejorar otra pagina web.",
+        titulo: "Mejora a Los Legendarios",
+        descripcion: "Pagina web hecha para mejorar la pagina web de Los Legendarios.",
         tecnologias: ["Netbeans", "Java"],
+        descripcionCorta: 'Desarrollo web personal para mejorar la pagina web de Los Legendarios a una con mejor estetica. Este proyecto es completamente personal y no se realizo en colaboracion con Los Legendarios.',
+        imagenes: ['/img/Screen2_4.png', '/img/Screen1_4.png', '/img/Screen4_4.png', '/img/Screen3_4.png'],
+        descripcionLarga: 'Pagina web con el proposito de darle mejor estetica a una pagina web. En esta pagina web se puede ver el menu, facturar, ver promociones y locaciones. ',
+        codigoEjemplo: `Se hizo uso de netbeans con tomcat para este desarrollo web en el lenguaje de java. \n
+Para la base de datos se uso mysql.`
     },
     {
         ID_Proyecto: '5',
-        titulo: "Aplicacion para andriod",
+        titulo: "VetBuddy",
         descripcion: "Apliacion para reservas en una veterinaria.",
         tecnologias: ["Kotlin", "Android studio"],
+        descripcionCorta: 'Aplicacion para android en la que un usuario puede hacer reservaciones en una veterinaria para consultar a sus mascotas.',
+        imagenes: ['/img/Screen1_5.png', '/img/Screen2_5.png', '/img/Screen3_5.png', '/img/Screen4_5.png'],
+        descripcionLarga: 'Aplicacion en android con el proposito de que los usuarios puedan reservar en una veterinaria. El usuario puede agregar a sus mascotas y escoger con que doctor consultar.',
+        codigoEjemplo: `Se uso Android studio para el desarrollo de esta app y kotlin como el lenguaje de la app.\n
+para la base de datos se uso un servidor con php myadmin para hostear la informacion.`
     },
     {
         ID_Proyecto: '6',
