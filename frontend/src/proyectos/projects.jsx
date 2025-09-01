@@ -85,9 +85,14 @@ El lenguaje usado es C#.`
     },
     {
         ID_Proyecto: '10',
-        titulo: "Videojuego",
-        descripcion: "Videojuego hecho para computadoras de pizzeria.",
-        tecnologias: ["C++"],
+        titulo: "Pizza Grafica",
+        descripcion: "Videojuego hecho para computadoras de entregar pizza.",
+        tecnologias: ["C++", "DirectX"],
+        descripcionCorta: 'Aplicacion para windows con la finalidad de ser un videojuego 3d de entrega de pizzas.',
+        imagenes: ['/img/Screen1_10.png', '/img/Screen2_10.png', '/img/Screen3_10.png', '/img/Screen4_10.png'],
+        descripcionLarga: 'En este juego tu mision es ser un repartidor de pizzas. Debes de entregar la pizza antes de que acabe el tiempo o tu reputacion bajara.',
+        codigoEjemplo: `Se uso visual studio 2022 con DirectX para los graficos por computadora.\n
+El lenguaje es C++ y se complemento con HLSL.`
     },
     {
         ID_Proyecto: '11',
