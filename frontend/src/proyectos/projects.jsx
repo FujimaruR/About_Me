@@ -59,12 +59,22 @@ para la base de datos se uso un servidor con php myadmin para hostear la informa
         titulo: "Punto de Venta para hotel",
         descripcion: "Software para punto de venta y reservaciones de un hotel.",
         tecnologias: ["SQL", "C#"],
+        descripcionCorta: 'Aplicacion para hacer las reservaciones de un cliente.',
+        imagenes: ['/img/Screen1_6.png', '/img/Screen2_6.png', '/img/Screen3_6.png', '/img/Screen4_6.png', '/img/Screen5_6.png'],
+        descripcionLarga: 'Aplicacion para windows en la que se puede reservar a un cliente que se quiere ospedar en el hotel. El usuario puede agregar clientes, revisar toda su informacion, asignarle habitacion y un administrador puede configurar los cuartos de hotel.',
+        codigoEjemplo: `Se uso C# como el lenguaje principal de este proyecto.\n
+Para la base de datos de uso SQL.`
     },
     {
         ID_Proyecto: '7',
         titulo: "Videojuego Web",
         descripcion: "Videojuego web.",
-        tecnologias: ["HTML", "Graficas computacionales"],
+        tecnologias: ["WebGL", "Three.js"],
+        descripcionCorta: 'Videojuego web de disparos.',
+        imagenes: ['/img/Screen1_7.png', '/img/Screen2_7.png', '/img/Screen3_7.png', '/img/Screen4_7.png'],
+        descripcionLarga: 'Videojuego 3D web en el que el usuario maneja una nave que debe de evitar ser golpeada por meteoritos y agarrar poweups por el mayor tiempo que pueda. Tambien tiene multijugador local.',
+        codigoEjemplo: `Se uso JavaScript como el lenguaje principal de este videojuego.\n
+Para los graficos 3D se uso WebGL y Three.js.`
     },
     {
         ID_Proyecto: '8',
@@ -82,6 +92,11 @@ El lenguaje usado es C#.`
         titulo: "Katastrofa",
         descripcion: "Videojuego de disparos hecho en unreal engine 5.",
         tecnologias: ["Unreal Engine 5"],
+        descripcionCorta: 'Shooter de zombies en unreal engine 5.',
+        imagenes: ['/img/Screen10_9.png', '/img/Screen11_9.png', '/img/Screen12_9.png', '/img/Screen1_9.png', '/img/Screen2_9.png'],
+        descripcionLarga: 'Videojuego de disparos en tercera persona, en la que debes de acabar con el equipo enemigo y escapar de los zombies. Es multijugador.',
+        codigoEjemplo: `Se uso unreal engine 5 para el desarrollo de este juego.\n
+Tambien se uso modelos propios, asi como de internet.`
     },
     {
         ID_Proyecto: '10',
@@ -96,21 +111,117 @@ El lenguaje es C++ y se complemento con HLSL.`
     },
     {
         ID_Proyecto: '11',
-        titulo: "Videojuego",
-        descripcion: "Videojuego hecho para computadoras de visual novel.",
-        tecnologias: ["C++"],
+        titulo: "Simulador de alturas",
+        descripcion: "Simulador de alturas en realidad virtual hecho en unreal engine 5.",
+        tecnologias: ["Unreal engine 5", "Realidad virtual"],
+        descripcionCorta: 'Videojuego de simulador de alturas para ayudar a perderle miedo a las alturas.',
+        imagenes: ['/img/Screen1_11.png', '/img/Screen2_11.png', '/img/Screen3_11.png', '/img/Screen4_11.png'],
+        descripcionLarga: 'En este juego de realidad virtual solamente debes de pasar caminando por una gran tabla. El proposito es ayudar a las personas con miedo a las alturas a superarlo.',
+        codigoEjemplo: `Se uso unreal engine 5 para el desarrollo de este juego.`
     },
     {
         ID_Proyecto: '12',
-        titulo: "Videojuego",
-        descripcion: "Videojuego hecho para computadoras de misterio.",
-        tecnologias: ["C++"],
-    },
-    {
-        ID_Proyecto: '13',
-        titulo: "Realidad virtual",
-        descripcion: "Videojuego de realidad virtual hecho en unreal engine 5.",
-        tecnologias: ["Unreal engine 5"],
+        titulo: "Documentacion",
+        descripcion: "Documentacion de simulacion.",
+        tecnologias: ["Documentacion"],
+        descripcionCorta: 'Documentacion de simulacion para un desarrollo para la empresa SEDESOL.',
+        imagenes: ['/img/Screen1_12.png', '/img/Screen2_12.png', '/img/Screen3_12.png', '/img/Screen4_12.png'],
+        descripcionLarga: 'Documentacion completa para un desarrollo ficticio con la intencion de aprender a hacer documentacion completa.',
+        codigoEjemplo: `Lista completa de la documentacion.\n
+CiberSeguridad\n
+- Acceso_Contraseñas\n
+- CiberSeguridad\n
+- Copia_Seguridad_Recuperación\n
+- Gestión_Datos_Sensibles\n
+- Hardware_Almacenamiento_Móvil\n
+- Política_Control_Físico_Acceso\n
+- Política_Seguridad_Información\n
+- Respuesta_Escalamiento_Incidentes\n
+- Seguridad_Responsabilidades_Empleado\n
+
+Documentación General\n
+- Afirmaciones_Clave\n
+- Manual_Gobierno\n
+- Matriz_Escalacion\n
+
+Desarrollo\n
+- Definicion_Proyecto\n
+- Carta_Inicio_Proyecto\n
+- FrameWorks\n
+- Impi\n
+- Propuesta_Economica\n
+- Propuesta_Solución\n
+- Propuesta_Técnica\n
+- Riesgos_y_Consideraciones\n
+- SLA_SLO_SLI\n
+- Sprints\n
+- Stakeholders\n
+- Plan_Trabajo\n
+- Plan_Trabajo_Detallado\n
+- Contrato\n
+- Propiedad_Intelectual\n
+- Backlog\n
+- HLD\n
+- Organigrama\n
+
+Gestión de Calidad\n
+- Calidad\n
+- ISO_27001\n
+- Poliza_Garantia\n
+- Código_Etica\n
+- Aviso_Privacidad\n
+
+Operaciones\n
+- BCP\n
+- DRP\n
+- KPI\n
+- Minutas\n
+
+RFC Cloud\n
+- Analisis_Riesgos\n
+- Arquitectura_Entorno\n
+- Contenedores_Serverless\n
+- Legal_Normativo\n
+- Seguridad_Nube\n
+- SLA\n
+- Seguridad_Datos_Nube\n
+- RollBack\n
+- Propuesta_Final\n
+- Plan_Recuperacion_Anti_Desastres\n
+- PID\n
+- Gestion_Cambios\n
+- Firmas\n
+- Falla\n
+- Solucion\n
+
+Propuesta Cloud Environment\n
+- Marco_Legal_Cumplimiento_Normativo\n
+- Pagos_Licencias_BYOK_BYOIP_BYOL\n
+- Firmas\n
+- Especificaciones_Infraestructura_Cloud\n
+- Arquitectura_Serverless_Baremetal\n
+- Técnica_Integración_Greenfield\n
+- Requisitos_Funcionales_Técnicos\n
+- Plan_Implementación_CDN_Balanceadores_Firewalls\n
+- Plan_Gestión_Incidentes_Recuperación\n
+
+Facturacion\n
+- Factura\n
+- Propiedad_IntelectuaL\n
+- Registro_Fiscal\n
+- Carta_Sat\n
+
+Reportes de avance y control\n
+- Uso_Recursos\n
+- Problemas_Soluciones\n
+
+SOW\n
+- SoW_Desarrollo_Software\n
+- SoW_DRP_BCP\n
+- SoW_Gestión_Monitoreo\n
+- SoW_Implementación_Seguridad\n
+- SoW_Infraestructura_Cloud\n
+`
     }
 ];
 
