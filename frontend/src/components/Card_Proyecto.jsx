@@ -4,6 +4,7 @@ const Card_Proyecto = ({ proyecto }) => {
     return (
         <div className="col-md-4 mb-4">
             <div className="card h-100 bg-dark text-white border border-secondary">
+                <img src={proyecto.imagenPromo} class="card-img-top" alt="..." style={{ objectFit: "cover", height: "40vh"}}></img>
                 <div className="card-body">
                     <Link to={`/Portafolio?id=${proyecto.ID_Proyecto}`} style={{ textDecoration: 'none', color: 'white', weight: 'bold' }}>
                     <h5 className="card-title text-primary">{proyecto.titulo}</h5>

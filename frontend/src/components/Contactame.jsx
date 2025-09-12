@@ -4,29 +4,32 @@ import emailjs from 'emailjs-com';
 const ContactoConmigo = () => {
 
     const sendEmail = (e) => {
-    e.preventDefault();
+        e.preventDefault();
 
-    emailjs
-      .sendForm(
-        'service_6ku4rge', // Reemplaza con tu Service ID
-        'template_u5rnhyn', // Reemplaza con tu Template ID
-        e.target,
-        'G8UtWO7QSaG4zKxzr' // Reemplaza con tu Public Key
-      )
-      .then(
-        (result) => {
-          alert('Mensaje enviado con éxito');
-          e.target.reset();
-        },
-        (error) => {
-          alert('Error al enviar el mensaje: ' + error.text);
-        }
-      );
-  };
+        emailjs
+            .sendForm(
+                'service_6ku4rge', // Reemplaza con tu Service ID
+                'template_u5rnhyn', // Reemplaza con tu Template ID
+                e.target,
+                'G8UtWO7QSaG4zKxzr' // Reemplaza con tu Public Key
+            )
+            .then(
+                (result) => {
+                    alert('Mensaje enviado con éxito');
+                    e.target.reset();
+                },
+                (error) => {
+                    alert('Error al enviar el mensaje: ' + error.text);
+                }
+            );
+    };
 
     return (
 
-        <section className="hero text-center p-5 border-top">
+        <section
+            className="hero text-center p-5 border-top"
+            
+        >
             <h1 className="mb-4 text-primary">Enviame un correo</h1>
             <form className="row g-3" onSubmit={sendEmail}>
                 <div className="col-lg-6">

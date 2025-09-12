@@ -38,7 +38,7 @@ const MostrarPortafolio = () => {
 
                 <div className="row">
                     <div className="col-md-6 mb-4">
-                        <img src={proyecto.imagenes[2]} alt="captura" className="img-fluid rounded" />
+                        <img src={proyecto.imagenPromo} alt="captura" className="img-fluid rounded" />
                     </div>
                     <div className="col-md-6 mb-4">
                         <pre className="bg-dark text-white p-3 rounded">
