@@ -6,7 +6,7 @@ const MyLife = () => {
             <h1 className="display-4 text-white"><span className="text-primary">SOBRE MÍ</span></h1>
             <p className="lead text-white">
                 Soy un programador web originario de Nuevo León, México, con formación en 
-                <strong> Multimedia y Animación Digital</strong> por la Universidad Autónoma de Nuevo León (generación 2020).
+                <strong> Multimedia y Animación Digital</strong> por la Universidad Autónoma de Nuevo León (generación 2024).
             </p>
             <p className="lead text-white mt-3">
                 Cuento con más de <strong>2 años de experiencia profesional</strong> como consultor web en <strong>ITAdmin</strong>, 
