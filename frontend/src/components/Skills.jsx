@@ -1,6 +1,6 @@
 
 const Skills = () => {
-  const skills = ["React", "Node.js", "Serverless", "Docker", "PHP", "C", "C++", "C#", "SQL", "NoSQL", "Java", "Javascript", "HTML", "CSS", "Documentacion", "AWS", "Graficas Computacionales", "Unreal Engine", "Python"];
+  const skills = ["React", "Node.js", "Serverless", "Docker", "PHP", "C", "C++", "C#", "SQL", "NoSQL", "Java", "Javascript", "HTML", "CSS", "Documentacion", "AWS", "Graficas Computacionales", "Unreal Engine", "Python", "Odoo", "TypeScript"];
   
   return (
     <section id="skills" className="p-5 border-top">
