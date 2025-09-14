@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
 import '../css/App.css';
+import GitHub from '../components/GitHub';
 
 const Proyectos = () => {
     return (
@@ -9,6 +10,7 @@ const Proyectos = () => {
             <Navbar />
             <main>
                 <Projects />
+                <GitHub />
             </main>
             <Footer />
         </div >
