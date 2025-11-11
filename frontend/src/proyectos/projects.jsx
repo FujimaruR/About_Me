@@ -1,6 +1,45 @@
 const proyectos = [
     {
         ID_Proyecto: '1',
+        titulo: "Cafe-Bonnibel-Pro",
+        descripcion: "Demo de un desarrollo web Pro.",
+        tecnologias: ["Tailwind", "Vite"],
+        descripcionCorta: "Demo completa de una cafeteria. Incluye Menus y carrito de compras.",
+        imagenes: ['/img/Screen8_14.png', '/img/Screen9_14.png', '/img/Screen10_14.png'],
+        imagenPromo: ['/img/Screen9_14.png'],
+        descripcionLarga: "Aplicación web diseñada para mostrar lo que seria un desarrollo web enfocado en una cafeteria. Incluye Menu, Sobre Nosotros, Ubicacion, Contacto, carrito y sistema de pagos.",
+        codigoEjemplo: `El proyecto fue desarrollado con Vite y TailWind, utilizando Supabase para la gestión de datos.\n
+Link de GitHub: https://github.com/FujimaruR/cafe-bonnibel-pro/tree/main\n
+Link de la pagina web: https://cafe-bonnibel-pro.vercel.app/`
+    },
+    {
+        ID_Proyecto: '2',
+        titulo: "Cafe-Bonnibel-Plus",
+        descripcion: "Demo de un desarrollo web Plus.",
+        tecnologias: ["Tailwind", "Vite"],
+        descripcionCorta: "Demo de una cafeteria. Incluye Menus y vistas que necesitaria una cafeteria.",
+        imagenes: ['/img/Screen4_14.png', '/img/Screen3_14.png', '/img/Screen5_14.png', '/img/Screen7_14.png'],
+        imagenPromo: ['/img/Screen6_14.png'],
+        descripcionLarga: "Aplicación web diseñada para mostrar lo que seria un desarrollo web enfocado en una cafeteria. Incluye Menu, Sobre Nosotros, Ubicacion y Contacto.",
+        codigoEjemplo: `El proyecto fue desarrollado con Vite y TailWind.\n
+Link de GitHub: https://github.com/FujimaruR/cafe-bonnibel-plus\n
+Link de la pagina web: https://cafe-bonnibel-plus.vercel.app/`
+    },
+    {
+        ID_Proyecto: '3',
+        titulo: "Cafe-Bonnibel-Basic",
+        descripcion: "Demo de un desarrollo web Basic.",
+        tecnologias: ["Tailwind", "Vite"],
+        descripcionCorta: "Demo de una cafeteria sencilla. Incluye solamente landingpage con su menu e informacion necesaria.",
+        imagenes: ['/img/Screen1_14.png', '/img/Screen2_14.png', '/img/Screen11_14.png'],
+        imagenPromo: ['/img/Screen1_14.png'],
+        descripcionLarga: "Aplicación web diseñada para mostrar lo que seria un desarrollo web enfocado en una cafeteria. Incluye landingpage que muestra el menu, ubicacion y contacto.",
+        codigoEjemplo: `El proyecto fue desarrollado con Vite y TailWind.\n
+Link de GitHub: https://github.com/FujimaruR/cafe-bonnibel\n
+Link de la pagina web: https://cafe-bonnibel-basic.vercel.app/`
+    },
+    {
+        ID_Proyecto: '4',
         titulo: "Reportes FIME",
         descripcion: "Plataforma desarrollada para la Facultad de Ingeniería Mecánica y Eléctrica (FIME) con el fin de gestionar evaluaciones académicas.",
         tecnologias: ["React", "AWS"],
@@ -12,7 +51,7 @@ const proyectos = [
 Se desplegó en una máquina virtual Linux en AWS EC2, lo que representó un reto técnico por la configuración del entorno de producción y el manejo de servicios en la nube.`
     },
     {
-        ID_Proyecto: '2',
+        ID_Proyecto: '5',
         titulo: "Micherry",
         descripcion: "Plataforma de comercio electrónico inspirada en el modelo de Aliexpress.",
         tecnologias: ["PHP", "SQL"],
@@ -24,7 +63,7 @@ Se desplegó en una máquina virtual Linux en AWS EC2, lo que representó un ret
 El backend fue desarrollado en PHP con integración a SQL.`
     },
     {
-        ID_Proyecto: '3',
+        ID_Proyecto: '6',
         titulo: "Tilted Reviews",
         descripcion: "Plataforma social para calificación y reseña de videojuegos.",
         tecnologias: ["React", "SQL"],
@@ -36,7 +75,7 @@ El backend fue desarrollado en PHP con integración a SQL.`
 El frontend fue desarrollado en React y se integró con una base de datos SQL.`
     },
     {
-        ID_Proyecto: '4',
+        ID_Proyecto: '7',
         titulo: "Mejora a Los Legendarios",
         descripcion: "Proyecto personal para rediseñar y optimizar la página web de Los Legendarios.",
         tecnologias: ["Netbeans", "Java"],
@@ -48,7 +87,7 @@ El frontend fue desarrollado en React y se integró con una base de datos SQL.`
 El backend fue desarrollado en Java con MySQL como base de datos.`
     },
     {
-        ID_Proyecto: '5',
+        ID_Proyecto: '8',
         titulo: "VetBuddy",
         descripcion: "Aplicación móvil para reservas en clínicas veterinarias.",
         tecnologias: ["Kotlin", "Android Studio"],
@@ -60,7 +99,7 @@ El backend fue desarrollado en Java con MySQL como base de datos.`
 La persistencia de datos se manejó en un servidor con phpMyAdmin.`
     },
     {
-        ID_Proyecto: '6',
+        ID_Proyecto: '9',
         titulo: "Punto de Venta para hotel",
         descripcion: "Sistema de gestión de ventas y reservaciones para hoteles.",
         tecnologias: ["SQL", "C#"],
@@ -72,7 +111,7 @@ La persistencia de datos se manejó en un servidor con phpMyAdmin.`
 La base de datos se implementó en SQL.`
     },
     {
-        ID_Proyecto: '7',
+        ID_Proyecto: '10',
         titulo: "Videojuego Web",
         descripcion: "Videojuego 3D de disparos desarrollado para navegadores.",
         tecnologias: ["WebGL", "Three.js"],
@@ -84,7 +123,7 @@ La base de datos se implementó en SQL.`
 Los gráficos 3D se desarrollaron con WebGL y Three.js.`
     },
     {
-        ID_Proyecto: '8',
+        ID_Proyecto: '11',
         titulo: "Aplicacion de edicion de imagenes y video",
         descripcion: "Software de escritorio para edición multimedia y reconocimiento en tiempo real.",
         tecnologias: ["C#"],
@@ -96,7 +135,7 @@ Los gráficos 3D se desarrollaron con WebGL y Three.js.`
 Incluye integración con librerías de reconocimiento de imagen.`
     },
     {
-        ID_Proyecto: '9',
+        ID_Proyecto: '12',
         titulo: "Katastrofa",
         descripcion: "Shooter multijugador desarrollado en Unreal Engine 5.",
         tecnologias: ["Unreal Engine 5"],
@@ -108,7 +147,7 @@ Incluye integración con librerías de reconocimiento de imagen.`
 Se utilizaron modelos propios y recursos externos.`
     },
     {
-        ID_Proyecto: '10',
+        ID_Proyecto: '13',
         titulo: "Pizza Grafica",
         descripcion: "Videojuego 3D de reparto de pizzas desarrollado en C++.",
         tecnologias: ["C++", "DirectX"],
@@ -120,7 +159,7 @@ Se utilizaron modelos propios y recursos externos.`
 El lenguaje principal fue C++ complementado con HLSL.`
     },
     {
-        ID_Proyecto: '11',
+        ID_Proyecto: '14',
         titulo: "Simulador de alturas",
         descripcion: "Experiencia de realidad virtual en Unreal Engine 5 para enfrentar el miedo a las alturas.",
         tecnologias: ["Unreal Engine 5", "Realidad Virtual"],
@@ -131,7 +170,7 @@ El lenguaje principal fue C++ complementado con HLSL.`
         codigoEjemplo: `El desarrollo se realizó en Unreal Engine 5 con soporte de realidad virtual.`
     },
     {
-        ID_Proyecto: '12',
+        ID_Proyecto: '15',
         titulo: "Documentacion",
         descripcion: "Documentación técnica y de ciberseguridad para simulaciones empresariales.",
         tecnologias: ["Documentación"],
