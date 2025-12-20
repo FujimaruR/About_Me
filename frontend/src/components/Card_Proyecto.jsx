@@ -7,7 +7,7 @@ export default function Card_Proyecto({ proyecto, variant }) {
 
   return (
     <Link
-      to={`/Portafolio?id=${proyecto.ID_Proyecto}`}
+      to={`/Portafolio/${proyecto.ID_Proyecto}`}
       className={`project-card ${variant === "featured" ? "project-card--featured" : ""}`}
       style={{ textDecoration: "none" }}
     >

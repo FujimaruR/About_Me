@@ -1,55 +1,149 @@
-import { useSearchParams } from 'react-router-dom';
-import proyectos from '../proyectos/projects';
-import { Carousel } from 'react-bootstrap';
+import { useMemo } from "react";
+import { Link, useParams } from "react-router-dom";
+import { Carousel } from "react-bootstrap";
+import { motion } from "framer-motion";
+import proyectos from "../proyectos/projects";
 
-const MostrarPortafolio = () => {
+function safeImg(img) {
+    return Array.isArray(img) ? img[0] : img;
+}
 
-    const [params] = useSearchParams();
-    const id = params.get('id');
-    const proyecto = proyectos.find(p => p.ID_Proyecto === id);
+function extractLinks(text = "") {
+    // Saca links simples de tu string codigoEjemplo (por si viene "Link de GitHub: ...")
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    const urls = text.match(urlRegex) || [];
+    const github = urls.find((u) => u.includes("github.com"));
+    const demo = urls.find((u) => !u.includes("github.com"));
+    return { github, demo };
+}
+
+export default function MostrarPortafolio() {
+    const { id } = useParams();
+
+    const proyecto = proyectos.find(
+        (p) => String(p.ID_Proyecto) === String(id)
+    );
+
 
     if (!proyecto) {
-        return <div className="text-white p-5">Proyecto no encontrado.</div>;
+        return (
+            <section className="section-wrap section-bg-2">
+                <div className="container">
+                    <div className="alert alert-light border">
+                        Proyecto no encontrado.{" "}
+                        <Link to="/Proyectos" className="alert-link">
+                            Volver a proyectos
+                        </Link>
+                    </div>
+                </div>
+            </section>
+        );
     }
 
+    const promo = safeImg(proyecto.imagenPromo);
+    const { github, demo } = extractLinks(proyecto.codigoEjemplo);
+
     return (
-        <section className="container my-5">
-            <div className="row">
-                <div className="col-lg-6 mb-4">
-                    <Carousel>
-                        {proyecto.imagenes.map((src, i) => (
-                            <Carousel.Item key={i}>
-                                <img className="d-block w-100 rounded" src={src} alt={`Imagen ${i + 1}`} />
-                            </Carousel.Item>
-                        ))}
-                    </Carousel>
-                </div>
+        <section className="section-wrap section-bg-2">
+            <div className="container">
+                {/* Top bar */}
+                <div className="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
+                    <Link to="/Proyectos" className="btn btn-outline-primary rounded-pill px-3">
+                        ← Volver
+                    </Link>
 
-                <div className="col-lg-6 text-white d-flex flex-column justify-content-center">
-                    <h2 className="text-primary">{proyecto.titulo}</h2>
-                    <p className="lead">{proyecto.descripcionCorta}</p>
-                </div>
-            </div>
-
-            {/* Explicación completa del proyecto */}
-            <div className="mt-5 text-white">
-                <h3>Detalles del proyecto</h3>
-                <p>{proyecto.descripcionLarga}</p>
-
-                <div className="row">
-                    <div className="col-md-6 mb-4">
-                        <img src={proyecto.imagenPromo} alt="captura" className="img-fluid rounded" />
+                    <div className="d-flex gap-2">
+                        {github && (
+                            <a className="btn btn-outline-primary rounded-pill px-3" href={github} target="_blank" rel="noreferrer">
+                                GitHub
+                            </a>
+                        )}
+                        {demo && (
+                            <a className="btn btn-primary rounded-pill px-3" href={demo} target="_blank" rel="noreferrer">
+                                Ver demo
+                            </a>
+                        )}
                     </div>
-                    <div className="col-md-6 mb-4">
-                        <pre className="bg-dark text-white p-3 rounded">
-                            <h3 className="text-primary">Tecnologias usadas en este desarrollo</h3>
-                            {proyecto.codigoEjemplo}
-                        </pre>
+                </div>
+
+                {/* Header */}
+                <motion.div
+                    className="project-hero mb-4"
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.35, ease: "easeOut" }}
+                >
+                    <div className="project-kicker">Case Study</div>
+                    <h1 className="project-title">{proyecto.titulo}</h1>
+                    <p className="project-subtitle">{proyecto.descripcionCorta}</p>
+
+                    <div className="d-flex flex-wrap gap-2 mt-2">
+                        {(proyecto.tecnologias || []).map((t) => (
+                            <span key={t} className="project-badge">
+                                {t}
+                            </span>
+                        ))}
+                    </div>
+                </motion.div>
+
+                {/* Main grid */}
+                <div className="row g-4 align-items-start">
+                    {/* Carousel */}
+                    <div className="col-12 col-lg-7">
+                        <div className="project-card">
+                            <Carousel className="project-carousel">
+                                {(proyecto.imagenes || []).map((src, i) => (
+                                    <Carousel.Item key={i}>
+                                        <img
+                                            className="d-block w-100 project-carousel-img"
+                                            src={src}
+                                            alt={`${proyecto.titulo} - Imagen ${i + 1}`}
+                                            loading="lazy"
+                                        />
+                                    </Carousel.Item>
+                                ))}
+                            </Carousel>
+                        </div>
+                    </div>
+
+                    {/* Sidebar */}
+                    <div className="col-12 col-lg-5">
+                        <div className="project-card project-sticky">
+                            <h3 className="project-section-title">Resumen</h3>
+                            <p className="project-text">{proyecto.descripcion}</p>
+
+                            <div className="project-divider" />
+
+                            <h3 className="project-section-title">Detalles</h3>
+                            <p className="project-text">{proyecto.descripcionLarga}</p>
+
+                            {promo && (
+                                <>
+                                    <div className="project-divider" />
+                                    <h3 className="project-section-title">Vista destacada</h3>
+                                    <img src={promo} alt="Captura destacada" className="img-fluid rounded-4 mt-2" loading="lazy" />
+                                </>
+                            )}
+                        </div>
+                    </div>
+                </div>
+
+                {/* Code / notes */}
+                <div className="row g-4 mt-2">
+                    <div className="col-12">
+                        <div className="project-card">
+                            <div className="d-flex align-items-center justify-content-between flex-wrap gap-2">
+                                <h3 className="project-section-title mb-0">Tecnologías y notas</h3>
+                                <span className="text-muted small">Resumen técnico</span>
+                            </div>
+
+                            <pre className="project-pre mt-3">
+                                {proyecto.codigoEjemplo}
+                            </pre>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     );
-};
-
-export default MostrarPortafolio;
+}
