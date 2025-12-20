@@ -1,25 +1,40 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-const Card_Proyecto = ({ proyecto }) => {
-    return (
-        <div className="col-md-4 mb-4">
-            <div className="card h-100 bg-dark text-white border border-secondary">
-                <Link to={`/Portafolio?id=${proyecto.ID_Proyecto}`} style={{ textDecoration: 'none', color: 'white', weight: 'bold' }}>
-                    <img src={proyecto.imagenPromo} class="card-img-top" alt="..." style={{ objectFit: "cover", height: "40vh" }}></img>
-                    <div className="card-body">
+export default function Card_Proyecto({ proyecto, variant }) {
+  const imgSrc = Array.isArray(proyecto.imagenPromo)
+    ? proyecto.imagenPromo[0]
+    : proyecto.imagenPromo;
 
-                        <h5 className="card-title text-primary">{proyecto.titulo}</h5>
-                        <p className="card-text">{proyecto.descripcion}</p>
-                        <div>
-                            {proyecto.tecnologias.map((tech, i) => (
-                                <span key={i} className="badge bg-primary me-2">{tech}</span>
-                            ))}
-                        </div>
-                    </div>
-                </Link>
-            </div>
+  return (
+    <Link
+      to={`/Portafolio?id=${proyecto.ID_Proyecto}`}
+      className={`project-card ${variant === "featured" ? "project-card--featured" : ""}`}
+      style={{ textDecoration: "none" }}
+    >
+      <div className="project-card__imgWrap">
+        <img src={imgSrc} alt={proyecto.titulo} className="project-card__img" />
+      </div>
+
+      <div className="project-card__body">
+        <div className="d-flex align-items-start justify-content-between gap-2">
+          <h5 className="project-card__title mb-1">{proyecto.titulo}</h5>
+          {variant === "featured" && (
+            <span className="badge rounded-pill text-bg-primary">Destacado</span>
+          )}
         </div>
-    );
-};
 
-export default Card_Proyecto;
+        <p className="project-card__desc mb-3">
+          {proyecto.descripcionCorta || proyecto.descripcion}
+        </p>
+
+        <div className="d-flex flex-wrap gap-2">
+          {proyecto.tecnologias.map((tech, i) => (
+            <span key={i} className="badge rounded-pill project-badge">
+              {tech}
+            </span>
+          ))}
+        </div>
+      </div>
+    </Link>
+  );
+}
