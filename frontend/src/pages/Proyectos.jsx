@@ -1,5 +1,5 @@
 import Navbar from '../components/Navbar';
-import Projects from '../components/Projects';
+import Projects from '../components/AllProjects';
 import Footer from '../components/Footer';
 import '../css/App.css';
 import GitHub from '../components/GitHub';

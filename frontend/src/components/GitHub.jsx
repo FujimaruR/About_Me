@@ -1,54 +1,65 @@
-const GitHub = () => {
-  const handleGitHubClick = () => {
-    // Reemplaza con tu URL de GitHub real
-    window.open('https://github.com/FujimaruR', '_blank');
-  };
-  
+import { motion } from "framer-motion";
+
+export default function GitHub() {
   return (
-    <section id="github" className="p-5 border-top">
-      <h2 className="mb-4 text-white">GitHub</h2>
-      <div className="d-flex flex-column align-items-center gap-4 justify-content-center">
-        <p className="lead text-white">También te invito a que veas mi GitHub.</p>
-        
-        <button 
-          className="btn btn-github d-flex align-items-center justify-content-center gap-2"
-          onClick={handleGitHubClick}
-          style={{
-            backgroundColor: '#333',
-            color: 'white',
-            padding: '12px 24px',
-            borderRadius: '6px',
-            border: 'none',
-            fontWeight: '600',
-            transition: 'all 0.3s ease',
-            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.backgroundColor = '#4078c0';
-            e.target.style.transform = 'translateY(-2px)';
-            e.target.style.boxShadow = '0 6px 8px rgba(0, 0, 0, 0.15)';
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.backgroundColor = '#333';
-            e.target.style.transform = 'translateY(0)';
-            e.target.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
-          }}
-        >
-          {/* SVG del logo de GitHub */}
-          <svg 
-            width="20" 
-            height="20" 
-            viewBox="0 0 98 96" 
-            xmlns="http://www.w3.org/2000/svg"
-            style={{ fill: 'white' }}
-          >
-            <path fillRule="evenodd" clipRule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/>
-          </svg>
-          Ver mi GitHub
-        </button>
+    <section id="github" className="section-wrap section-bg-2">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-12 col-lg-10 col-xl-9">
+            <motion.div
+              className="github-card"
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.35, ease: "easeOut" }}
+            >
+              <div className="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
+                <div>
+                  <div className="github-kicker mb-2">GitHub</div>
+                  <h3 className="github-title mb-2">Revisa mi código y proyectos</h3>
+                  <p className="github-subtitle mb-0">
+                    Aquí puedes ver repos, demos y avances de mis proyectos (web, backend y Odoo).
+                  </p>
+                </div>
+
+                <div className="d-flex flex-column align-items-stretch gap-2">
+                  <a
+                    className="btn github-btn rounded-pill px-4 py-2 fw-semibold d-inline-flex align-items-center justify-content-center gap-2"
+                    href="https://github.com/FujimaruR"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <GitHubIcon />
+                    Ver mi GitHub
+                  </a>
+
+                  <small className="text-muted text-center">
+                    github.com/FujimaruR
+                  </small>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
       </div>
     </section>
   );
-};
+}
 
-export default GitHub;
+function GitHubIcon() {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 98 96"
+      xmlns="http://www.w3.org/2000/svg"
+      className="github-icon"
+      aria-hidden="true"
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"
+      />
+    </svg>
+  );
+}

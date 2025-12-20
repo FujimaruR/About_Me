@@ -22,16 +22,21 @@ export default function Projects() {
   const [page, setPage] = useState(0);
 
   // ✅ Más nuevos primero (no muta el array original)
-  const proyectosReversed = useMemo(() => [...proyectos].reverse(), [proyectos]);
+  const proyectosOrdenados = useMemo(() => {
+    return [...proyectos].sort(
+      (a, b) => Number(b.ID_Proyecto) - Number(a.ID_Proyecto)
+    );
+  }, [proyectos]);
+
 
   const destacados = useMemo(
-    () => proyectosReversed.filter((p) => p.destacado),
-    [proyectosReversed]
+    () => proyectosOrdenados.filter((p) => p.destacado),
+    [proyectosOrdenados]
   );
 
   const restantes = useMemo(
-    () => proyectosReversed.filter((p) => !p.destacado),
-    [proyectosReversed]
+    () => proyectosOrdenados.filter((p) => !p.destacado),
+    [proyectosOrdenados]
   );
 
   // ✅ totalPages NUNCA 0
