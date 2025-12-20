@@ -35,7 +35,7 @@ const Terminal = () => {
             </div>
 
             <div id="curriculum-frame" className="mt-4" style={{ display: 'none' }}>
-                <iframe src="/mi-curriculum.pdf" width="100%" height="1000px" style={{ border: '2px solid #0d6efd' }}></iframe>
+                <iframe src="/Resume-EmilioCastillo.pdf" width="100%" height="1000px" style={{ border: '2px solid #0d6efd' }}></iframe>
             </div>
         </section>
 

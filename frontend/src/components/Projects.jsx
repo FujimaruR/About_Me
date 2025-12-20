@@ -16,6 +16,8 @@ const item = {
   show: { opacity: 1, y: 0 }
 };
 
+
+
 export default function Projects() {
   const [page, setPage] = useState(0);
 
@@ -121,17 +123,17 @@ export default function Projects() {
 
           {noHayMas ? (
             <div className="alert alert-light border">
-              Ya marcaste todos los proyectos como <b>destacado</b>.  
+              Ya marcaste todos los proyectos como <b>destacado</b>.
               Si quieres paginación aquí, deja algunos sin <code>destacado: true</code>.
             </div>
           ) : (
             <>
               <motion.div
+                key={`page-${safePage}`}          // 👈 esto fuerza remount al cambiar página
                 className="row g-4"
                 variants={container}
                 initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.2 }}
+                animate="show"                   // 👈 NO whileInView aquí
               >
                 {visibles.map((proyecto) => (
                   <motion.div
@@ -143,6 +145,7 @@ export default function Projects() {
                   </motion.div>
                 ))}
               </motion.div>
+
 
               {/* Pagination */}
               <div className="d-flex justify-content-center align-items-center gap-3 mt-4">

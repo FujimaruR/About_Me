@@ -329,6 +329,201 @@ button{
 }
 
 
+/* ===== Skills ===== */
+.skill-card{
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 18px;
+  padding: 20px 22px;
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.06);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.skill-card:hover{
+  transform: translateY(-4px);
+  border-color: rgba(37, 99, 235, 0.25);
+  box-shadow: 0 16px 40px rgba(2, 6, 23, 0.10);
+}
+
+.skill-card-title{
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: #0f172a;
+  margin: 0;
+}
+
+/* Badges */
+.skill-badge{
+  padding: 6px 12px;
+  border-radius: 9999px;
+  background: rgba(37, 99, 235, 0.10);
+  border: 1px solid rgba(37, 99, 235, 0.20);
+  color: #1d4ed8;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+/* ===== Footer ===== */
+.footer-wrap{
+  margin-top: 80px;
+  padding: 36px 0 28px;
+  background:
+    radial-gradient(600px 220px at 20% 0%, rgba(37,99,235,.12), transparent 60%),
+    linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+  border-top: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.footer-name{
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: #0f172a;
+}
+
+.footer-role{
+  font-size: 0.95rem;
+  color: rgba(15, 23, 42, 0.65);
+}
+
+.footer-links{
+  display: inline-flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-links a{
+  color: rgba(15, 23, 42, 0.75);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color .15s ease, transform .15s ease;
+}
+
+.footer-links a:hover{
+  color: #2563eb;
+  transform: translateY(-1px);
+}
+
+.footer-bottom{
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px dashed rgba(15, 23, 42, 0.12);
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(15, 23, 42, 0.55);
+}
+
+/* ===== About ===== */
+.about-kicker{
+  display: inline-flex;
+  padding: 8px 14px;
+  border-radius: 9999px;
+  background: rgba(37, 99, 235, 0.10);
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  color: #1d4ed8;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.about-text{
+  color: rgba(15, 23, 42, 0.72);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  margin-bottom: 12px;
+}
+
+.about-badge{
+  padding: 6px 12px;
+  border-radius: 9999px;
+  background: rgba(15, 23, 42, 0.05);
+  border: 1px solid rgba(15, 23, 42, 0.10);
+  color: rgba(15, 23, 42, 0.78);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+/* Right card */
+.about-card{
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 18px;
+  padding: 20px 22px;
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.06);
+}
+
+.about-card-title{
+  font-weight: 900;
+  color: #0f172a;
+  margin-bottom: 14px;
+  letter-spacing: -0.02em;
+}
+
+.about-list{
+  display: grid;
+  gap: 10px;
+}
+
+.about-row{
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(15, 23, 42, 0.03);
+  border: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.about-label{
+  color: rgba(15, 23, 42, 0.60);
+  font-weight: 700;
+}
+
+.about-value{
+  color: rgba(15, 23, 42, 0.90);
+  font-weight: 800;
+  text-align: right;
+}
+
+/* ===== Info cards / chart cards ===== */
+.info-card,
+.chart-card{
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 18px;
+  padding: 20px 22px;
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.06);
+}
+
+.info-card-title{
+  font-weight: 900;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+}
+
+.info-list{
+  padding-left: 18px;
+  margin: 0;
+  color: rgba(15, 23, 42, 0.72);
+  line-height: 1.7;
+}
+
+.info-list li{
+  margin-bottom: 8px;
+}
+
+.pill-badge{
+  padding: 6px 12px;
+  border-radius: 9999px;
+  background: rgba(37, 99, 235, 0.10);
+  border: 1px solid rgba(37, 99, 235, 0.20);
+  color: #1d4ed8;
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+
+
+
+
 
 
 
