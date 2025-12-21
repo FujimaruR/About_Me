@@ -1,22 +1,42 @@
 const proyectos = [
     {
+        ID_Proyecto: '16',
+        titulo: "Alitas-Bonnibel-Pro",
+        descripcion: "Demo de un desarrollo web Pro para un restaurante.",
+        tecnologias: ["Tailwind", "Vite"],
+        descripcionCorta: "Demo completa de una restaurante de alitas. Incluye Menus, carrito de compras, LandingPage, Nosotros, Sucursales, Contacto y panel Admin.",
+        imagenes: ['/img/Screen2_16.png', '/img/Screen4_16.png', '/img/Screen5_16.png'],
+        imagenPromo: "/img/Screen1_16.png",
+        descripcionLarga: "Aplicación web diseñada para mostrar lo que seria un desarrollo web enfocado en un restaurante. Incluye Menu, Sobre Nosotros, Ubicacion, Contacto, carrito, sistema de pagos y panel Admin para gestion.",
+        codigoEjemplo: `El proyecto fue desarrollado con Vite y TailWind, utilizando Nest.JS + Prisma para la gestión de datos.\n
+Link de GitHub: https://github.com/FujimaruR/Alitas-Bonnibel\n
+Link de la pagina web: https://alitas-bonnibel.vercel.app/`,
+        destacado: true,
+        esDemoCliente: true,
+        demoUrl: "https://alitas-bonnibel.vercel.app/",
+        repoUrl: "https://github.com/FujimaruR/Alitas-Bonnibel"
+    },
+    {
         ID_Proyecto: '15',
         titulo: "Cafe-Bonnibel-Pro",
-        descripcion: "Demo de un desarrollo web Pro.",
+        descripcion: "Demo de un desarrollo web Pro para una cafeteria.",
         tecnologias: ["Tailwind", "Vite"],
-        descripcionCorta: "Demo completa de una cafeteria. Incluye Menus y carrito de compras.",
+        descripcionCorta: "Demo completa de una cafeteria. Incluye Menus, carrito de compras, LandingPage, Nosotros, Sucursales, Contacto y panel Admin",
         imagenes: ['/img/Screen8_14.png', '/img/Screen9_14.png', '/img/Screen10_14.png'],
         imagenPromo: "/img/Screen9_14.png",
         descripcionLarga: "Aplicación web diseñada para mostrar lo que seria un desarrollo web enfocado en una cafeteria. Incluye Menu, Sobre Nosotros, Ubicacion, Contacto, carrito y sistema de pagos.",
         codigoEjemplo: `El proyecto fue desarrollado con Vite y TailWind, utilizando Supabase para la gestión de datos.\n
-Link de GitHub: https://github.com/FujimaruR/cafe-bonnibel-pro/tree/main\n
+Link de GitHub: https://github.com/FujimaruR/cafe-bonnibel-pro\n
 Link de la pagina web: https://cafe-bonnibel-pro.vercel.app/`,
         destacado: true,
+        esDemoCliente: true,
+        demoUrl: "https://cafe-bonnibel-pro.vercel.app/",
+        repoUrl: "https://github.com/FujimaruR/cafe-bonnibel-pro/tree/main"
     },
     {
         ID_Proyecto: '14',
         titulo: "Cafe-Bonnibel-Plus",
-        descripcion: "Demo de un desarrollo web Plus.",
+        descripcion: "Demo de un desarrollo web Plus para una cafeteria.",
         tecnologias: ["Tailwind", "Vite"],
         descripcionCorta: "Demo de una cafeteria. Incluye Menus y vistas que necesitaria una cafeteria.",
         imagenes: ['/img/Screen4_14.png', '/img/Screen3_14.png', '/img/Screen5_14.png', '/img/Screen7_14.png'],
@@ -24,12 +44,15 @@ Link de la pagina web: https://cafe-bonnibel-pro.vercel.app/`,
         descripcionLarga: "Aplicación web diseñada para mostrar lo que seria un desarrollo web enfocado en una cafeteria. Incluye Menu, Sobre Nosotros, Ubicacion y Contacto.",
         codigoEjemplo: `El proyecto fue desarrollado con Vite y TailWind.\n
 Link de GitHub: https://github.com/FujimaruR/cafe-bonnibel-plus\n
-Link de la pagina web: https://cafe-bonnibel-plus.vercel.app/`
+Link de la pagina web: https://cafe-bonnibel-plus.vercel.app/`,
+        esDemoCliente: true,
+        demoUrl: "https://cafe-bonnibel-plus.vercel.app/",
+        repoUrl: "https://github.com/FujimaruR/cafe-bonnibel-plus"
     },
     {
         ID_Proyecto: '13',
         titulo: "Cafe-Bonnibel-Basic",
-        descripcion: "Demo de un desarrollo web Basic.",
+        descripcion: "Demo de un desarrollo web Basic para una cafeteria.",
         tecnologias: ["Tailwind", "Vite"],
         descripcionCorta: "Demo de una cafeteria sencilla. Incluye solamente landingpage con su menu e informacion necesaria.",
         imagenes: ['/img/Screen1_14.png', '/img/Screen2_14.png', '/img/Screen11_14.png'],
@@ -37,7 +60,10 @@ Link de la pagina web: https://cafe-bonnibel-plus.vercel.app/`
         descripcionLarga: "Aplicación web diseñada para mostrar lo que seria un desarrollo web enfocado en una cafeteria. Incluye landingpage que muestra el menu, ubicacion y contacto.",
         codigoEjemplo: `El proyecto fue desarrollado con Vite y TailWind.\n
 Link de GitHub: https://github.com/FujimaruR/cafe-bonnibel\n
-Link de la pagina web: https://cafe-bonnibel-basic.vercel.app/`
+Link de la pagina web: https://cafe-bonnibel-basic.vercel.app/`,
+        esDemoCliente: true,
+        demoUrl: "https://cafe-bonnibel-basic.vercel.app/",
+        repoUrl: "https://github.com/FujimaruR/cafe-bonnibel"
     },
     {
         ID_Proyecto: '12',
@@ -51,6 +77,7 @@ Link de la pagina web: https://cafe-bonnibel-basic.vercel.app/`
         codigoEjemplo: `El proyecto fue desarrollado con React y Node.js, utilizando SQL para la gestión de datos.\n
 Se desplegó en una máquina virtual Linux en AWS EC2, lo que representó un reto técnico por la configuración del entorno de producción y el manejo de servicios en la nube.`,
         destacado: true,
+        esDemoCliente: false
     },
     {
         ID_Proyecto: '11',
@@ -63,7 +90,8 @@ Se desplegó en una máquina virtual Linux en AWS EC2, lo que representó un ret
         descripcionLarga: "Sistema e-commerce donde los usuarios pueden registrarse para comprar, guardar favoritos, comentar y reseñar productos. Los vendedores tienen acceso a paneles de gestión, publicación de artículos y chats con clientes.",
         codigoEjemplo: `Se utilizó XAMPP como entorno de desarrollo local y phpMyAdmin para la administración de la base de datos.\n
 El backend fue desarrollado en PHP con integración a SQL.`,
-        destacado: true,
+        esDemoCliente: false
+
     },
     {
         ID_Proyecto: '10',
@@ -75,7 +103,9 @@ El backend fue desarrollado en PHP con integración a SQL.`,
         imagenPromo: "/img/Screen4_3.png",
         descripcionLarga: "Portal en el que los jugadores pueden registrar cuentas, publicar reseñas de videojuegos, guardar títulos como favoritos, calificarlos y comentar. También permite explorar las listas y opiniones de otros usuarios.",
         codigoEjemplo: `Se empleó XAMPP como entorno de prueba y phpMyAdmin para la base de datos.\n
-El frontend fue desarrollado en React y se integró con una base de datos SQL.`
+El frontend fue desarrollado en React y se integró con una base de datos SQL.`,
+        esDemoCliente: false
+
     },
     {
         ID_Proyecto: '9',
@@ -87,7 +117,9 @@ El frontend fue desarrollado en React y se integró con una base de datos SQL.`
         imagenPromo: "/img/Screen2_4.png",
         descripcionLarga: "Sitio web con mejoras en la interfaz visual y usabilidad. Incluye módulos de menú, facturación, promociones y localización de sucursales.",
         codigoEjemplo: `Se utilizó NetBeans con servidor Tomcat para la implementación.\n
-El backend fue desarrollado en Java con MySQL como base de datos.`
+El backend fue desarrollado en Java con MySQL como base de datos.`,
+        esDemoCliente: false
+
     },
     {
         ID_Proyecto: '8',
@@ -99,7 +131,9 @@ El backend fue desarrollado en Java con MySQL como base de datos.`
         imagenPromo: "/img/Screen1_5.png",
         descripcionLarga: "Aplicación en Android que permite a los usuarios gestionar sus mascotas y reservar citas con diferentes doctores veterinarios. La plataforma centraliza información de clientes y mascotas.",
         codigoEjemplo: `El desarrollo se realizó en Android Studio utilizando Kotlin.\n
-La persistencia de datos se manejó en un servidor con phpMyAdmin.`
+La persistencia de datos se manejó en un servidor con phpMyAdmin.`,
+        esDemoCliente: false
+
     },
     {
         ID_Proyecto: '7',
@@ -111,7 +145,9 @@ La persistencia de datos se manejó en un servidor con phpMyAdmin.`
         imagenPromo: "/img/Screen2_6.png",
         descripcionLarga: "Software para Windows que gestiona clientes, asignación de habitaciones y control de información administrativa. Los administradores pueden configurar habitaciones y supervisar la operación del hotel.",
         codigoEjemplo: `El sistema fue desarrollado en C# para Windows.\n
-La base de datos se implementó en SQL.`
+La base de datos se implementó en SQL.`,
+        esDemoCliente: false
+
     },
     {
         ID_Proyecto: '6',
@@ -123,7 +159,9 @@ La base de datos se implementó en SQL.`
         imagenPromo: "/img/Screen3_7.png",
         descripcionLarga: "Juego en el que el usuario controla una nave que debe esquivar meteoritos y recolectar power-ups. Incluye soporte multijugador local para mayor dinamismo.",
         codigoEjemplo: `El lenguaje principal fue JavaScript.\n
-Los gráficos 3D se desarrollaron con WebGL y Three.js.`
+Los gráficos 3D se desarrollaron con WebGL y Three.js.`,
+        esDemoCliente: false
+
     },
     {
         ID_Proyecto: '5',
@@ -135,7 +173,9 @@ Los gráficos 3D se desarrollaron con WebGL y Three.js.`
         imagenPromo: "/img/Screen1_8.png",
         descripcionLarga: "Aplicación en Windows que permite importar imágenes y videos para aplicar filtros, realizar ediciones y activar la cámara con reconocimiento facial en tiempo real.",
         codigoEjemplo: `Desarrollado en Visual Studio 2022 utilizando C#.\n
-Incluye integración con librerías de reconocimiento de imagen.`
+Incluye integración con librerías de reconocimiento de imagen.`,
+        esDemoCliente: false
+
     },
     {
         ID_Proyecto: '4',
@@ -147,7 +187,9 @@ Incluye integración con librerías de reconocimiento de imagen.`
         imagenPromo: "/img/Screen12_9.png",
         descripcionLarga: "Juego multijugador en tercera persona donde los jugadores deben enfrentarse a equipos rivales mientras sobreviven a oleadas de zombies. Combina acción y estrategia en escenarios dinámicos.",
         codigoEjemplo: `Desarrollado en Unreal Engine 5.\n
-Se utilizaron modelos propios y recursos externos.`
+Se utilizaron modelos propios y recursos externos.`,
+        esDemoCliente: false
+
     },
     {
         ID_Proyecto: '3',
@@ -159,7 +201,9 @@ Se utilizaron modelos propios y recursos externos.`
         imagenPromo: "/img/Screen1_10.png",
         descripcionLarga: "El jugador asume el rol de repartidor de pizzas y debe cumplir con las entregas antes de que el tiempo expire, evitando perder reputación en el proceso.",
         codigoEjemplo: `Se utilizó Visual Studio 2022 con DirectX para el desarrollo de los gráficos.\n
-El lenguaje principal fue C++ complementado con HLSL.`
+El lenguaje principal fue C++ complementado con HLSL.`,
+        esDemoCliente: false
+
     },
     {
         ID_Proyecto: '2',
@@ -170,7 +214,9 @@ El lenguaje principal fue C++ complementado con HLSL.`
         imagenes: ['/img/Screen1_11.png', '/img/Screen2_11.png', '/img/Screen3_11.png', '/img/Screen4_11.png'],
         imagenPromo: "/img/Screen3_11.png",
         descripcionLarga: "El jugador camina por una tabla suspendida a gran altura en un entorno de realidad virtual. El objetivo es brindar una experiencia controlada que apoye en la superación del miedo a las alturas.",
-        codigoEjemplo: `El desarrollo se realizó en Unreal Engine 5 con soporte de realidad virtual.`
+        codigoEjemplo: `El desarrollo se realizó en Unreal Engine 5 con soporte de realidad virtual.`,
+        esDemoCliente: false
+
     },
     {
         ID_Proyecto: '1',
@@ -188,7 +234,9 @@ El lenguaje principal fue C++ complementado con HLSL.`
 - Operaciones (BCP, DRP, KPI, minutas)\n
 - RFC y entornos cloud (arquitectura, contenedores, SLA, análisis de riesgos)\n
 - Facturación y propuestas comerciales\n
-- SOW (definición de alcances y entregables)`
+- SOW (definición de alcances y entregables)`,
+        esDemoCliente: false
+
     }
 ];
 

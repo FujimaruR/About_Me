@@ -54,7 +54,7 @@ export default function Navbar() {
                                     <NavLink to="/Proyectos" className={linkClass}>Proyectos</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to="/Contacto" className={linkClass}>Contacto</NavLink>
+                                    <NavLink to="/Clientes" className={linkClass}>Clientes</NavLink>
                                 </li>
 
                                 <li className="nav-item ms-lg-2 mt-2 mt-lg-0">

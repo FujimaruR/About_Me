@@ -874,6 +874,175 @@ button{
   }
 }
 
+/* ===== Clientes / Servicios page ===== */
+.client-hero{
+  background:
+    radial-gradient(900px 320px at 15% 0%, rgba(37,99,235,.16), transparent 60%),
+    linear-gradient(180deg, #ffffff 0%, #f6f7fb 100%);
+  border: 1px solid rgba(15, 23, 42, 0.10);
+  border-radius: 24px;
+  padding: 24px 26px;
+  box-shadow: 0 18px 55px rgba(2, 6, 23, 0.10);
+}
+
+.client-kicker{
+  display: inline-flex;
+  padding: 7px 12px;
+  border-radius: 9999px;
+  background: rgba(37, 99, 235, 0.10);
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  color: #1d4ed8;
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+.client-title{
+  margin: 10px 0 6px;
+  font-weight: 950;
+  letter-spacing: -0.02em;
+  color: #0f172a;
+}
+
+.client-subtitle{
+  color: rgba(15, 23, 42, 0.70);
+  line-height: 1.7;
+  max-width: 75ch;
+}
+
+/* Cards */
+.client-card{
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.10);
+  border-radius: 18px;
+  padding: 18px 18px;
+  box-shadow: 0 12px 36px rgba(2, 6, 23, 0.08);
+}
+
+.client-card-title{
+  font-weight: 900;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.client-card-text{
+  color: rgba(15, 23, 42, 0.70);
+  line-height: 1.7;
+}
+
+/* Pricing */
+.price-card{
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.10);
+  border-radius: 22px;
+  padding: 20px;
+  box-shadow: 0 18px 55px rgba(2, 6, 23, 0.10);
+}
+
+.price-card--plus{
+  border-color: rgba(37, 99, 235, 0.22);
+  box-shadow: 0 22px 60px rgba(37, 99, 235, 0.12);
+}
+
+.price-card--pro{
+  border-color: rgba(34, 197, 94, 0.22);
+  box-shadow: 0 22px 60px rgba(34, 197, 94, 0.12);
+}
+
+.price-name{
+  font-weight: 950;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+  font-size: 1.1rem;
+}
+
+.price-pill{
+  padding: 6px 10px;
+  border-radius: 9999px;
+  background: rgba(15, 23, 42, 0.06);
+  border: 1px solid rgba(15, 23, 42, 0.10);
+  color: rgba(15, 23, 42, 0.75);
+  font-weight: 800;
+  font-size: 0.85rem;
+}
+
+.price-value{
+  font-weight: 950;
+  color: #1d4ed8;
+  font-size: 1.4rem;
+}
+
+.price-list{
+  margin: 0;
+  padding-left: 18px;
+  color: rgba(15, 23, 42, 0.72);
+  line-height: 1.75;
+}
+
+.price-list li{
+  margin-bottom: 8px;
+}
+
+.price-note{
+  color: rgba(15, 23, 42, 0.55);
+  font-size: 0.9rem;
+}
+
+/* Demos */
+.demo-card{
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.10);
+  border-radius: 22px;
+  padding: 18px;
+  box-shadow: 0 18px 55px rgba(2, 6, 23, 0.10);
+}
+
+.demo-title{
+  font-weight: 950;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+  margin-bottom: 6px;
+}
+
+.demo-text{
+  color: rgba(15, 23, 42, 0.70);
+  line-height: 1.7;
+}
+
+/* CTA final */
+.client-cta{
+  text-align: center;
+  border-radius: 24px;
+  padding: 26px 22px;
+  background:
+    radial-gradient(700px 260px at 20% 0%, rgba(34,197,94,.14), transparent 60%),
+    linear-gradient(180deg, #ffffff 0%, #f0fdf4 100%);
+  border: 1px solid rgba(34,197,94,0.20);
+  box-shadow: 0 18px 55px rgba(2, 6, 23, 0.10);
+}
+
+.client-cta-title{
+  font-weight: 950;
+  color: #064e3b;
+  letter-spacing: -0.02em;
+  font-size: 1.35rem;
+}
+
+.client-cta-text{
+  color: rgba(6, 78, 59, 0.75);
+  line-height: 1.7;
+}
+
+.demo-thumb{
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 1px solid rgba(15,23,42,0.10);
+}
+
+
+
 
 
 
