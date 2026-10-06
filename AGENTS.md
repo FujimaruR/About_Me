@@ -5,6 +5,16 @@ Instrucciones para trabajar en FujimaruR/About_Me. Alcance: todo este repositori
 ## Contexto del proyecto
 Portafolio con frontend/ (React, Vite, Bootstrap, React Bootstrap y Framer Motion) y BackEnd/ (Express y mysql2). Respeta mayúsculas en BackEnd. En frontend/ ejecuta npm run lint y npm run build. BackEnd/package.json tiene un test placeholder que falla deliberadamente y no tiene script start: inspecciona server.js antes de definir comandos de ejecución/verificación. Conserva la base MySQL si está en uso. Mantén la integración de contacto existente, incluidas respuestas de EmailJS si se utiliza. Actualiza información profesional únicamente con fuentes aportadas por el propietario; ante fechas contradictorias, confirma el dato. Revisa exposición de configuración sin imprimir valores de .env.
 
+## Propósito y cambios requeridos
+- Este sitio es el portafolio personal de Emilio Yair Castillo Pacheco, dirigido a empresas, reclutadores y personas que revisan su currículum. La presentación, navegación y llamadas a la acción deben comunicar ese propósito.
+- Al implementar esta adaptación, elimina todo el apartado de clientes y sus enlaces, rutas, componentes, textos, traducciones y llamadas a contratación comercial que queden sin uso. Revisa referencias para evitar enlaces rotos. Esta instrucción específica prevalece sobre conservar funcionalidades comerciales.
+- No borres registros reales de clientes ni tablas de negocio como consecuencia de retirar la sección pública; cualquier eliminación de datos exige un alcance explícito.
+- Enfoca el contenido en presentación personal, experiencia verificable, habilidades, formación, currículum, proyectos y contacto profesional. No conviertas el sitio en una landing de venta de servicios.
+- Divide el apartado de proyectos en dos categorías visibles y traducidas: "Proyectos de desarrollo" / "Development projects" y "Proyectos de videojuegos" / "Video game projects".
+- Clasifica según el contenido real de cada proyecto; no inventes videojuegos ni dupliques tarjetas para llenar categorías. Si falta material, muestra un estado vacío honesto.
+- Para cada proyecto presenta, cuando haya fuentes: objetivo, contribución personal, tecnologías, estado y enlaces válidos a repositorio/demo. Aclara si es ejercicio, demo, colaboración o producto real.
+- Mantén el contacto dirigido a oportunidades profesionales y el acceso al CV. Las ofertas comerciales corresponden a Clients_Yair; no copies allí contenido ni modifiques ese repositorio desde una tarea de About_Me sin alcance autorizado.
+
 ## Forma de trabajar
 - Comunica y explica los cambios en español, con ejemplos útiles para aprender.
 - Inspecciona el código, los manifiestos, lockfiles, configuración de hosting y otros AGENTS.md antes de editar. Las instrucciones más específicas del directorio aplican a sus archivos.
