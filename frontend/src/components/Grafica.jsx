@@ -1,3 +1,4 @@
+import { useLocale as useSiteLocale, t as tr } from '../site/locale';
 import {
   PieChart,
   Pie,
@@ -6,9 +7,10 @@ import {
   ResponsiveContainer,
   Tooltip,
 } from "recharts";
-import { motion } from "framer-motion";
+import { motion as Motion } from "framer-motion";
 
 export default function Grafica() {
+  useSiteLocale();
   const conocimiento = [
     { name: "Backend", value: 70 },
     { name: "Frontend", value: 30 },
@@ -21,34 +23,32 @@ export default function Grafica() {
     <section className="section-wrap section-bg-1" id="distribution">
       <div className="container">
         <div className="text-center mb-5">
-          <h2 className="section-title mb-2">Distribución de conocimientos</h2>
-          <p className="section-subtitle mx-auto">
-            Enfoque principal en backend y arquitectura, manteniendo un frontend sólido y moderno.
-          </p>
+          <h2 className="section-title mb-2">{tr("text.46d8c890db")}</h2>
+          <p className="section-subtitle mx-auto"> {tr("text.0a7a4f8cb7")} </p>
         </div>
 
         <div className="row g-4 align-items-stretch">
           {/* Backend */}
           <div className="col-12 col-lg-4">
-            <motion.div
+            <Motion.div
               className="info-card h-100"
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.35, ease: "easeOut" }}
             >
-              <div className="info-card-title">Backend</div>
+              <div className="info-card-title">{tr("text.e758ca6456")}</div>
               <ul className="info-list mt-3 mb-0">
-                <li>Node.js (Express / NestJS)</li>
-                <li>SQL (MySQL / PostgreSQL) + ORM (Prisma)</li>
-                <li>APIs REST, autenticación y seguridad básica</li>
-                <li>Deploy en Linux + cloud (AWS / Vercel)</li>
+                <li>{tr("text.b3cf8b26c2")}</li>
+                <li>{tr("text.4f7def8ca2")}</li>
+                <li>{tr("text.5532ef5ccd")}</li>
+                <li>{tr("text.b9b490fbb7")}</li>
               </ul>
-            </motion.div>
+            </Motion.div>
           </div>
 
           {/* Chart */}
           <div className="col-12 col-lg-4">
-            <motion.div
+            <Motion.div
               className="chart-card h-100"
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
@@ -56,8 +56,8 @@ export default function Grafica() {
             >
               <div className="d-flex align-items-center justify-content-between flex-wrap gap-2">
                 <div>
-                  <div className="info-card-title mb-0">Balance</div>
-                  <div className="text-muted small">Backend vs Frontend</div>
+                  <div className="info-card-title mb-0">{tr("text.90eef61304")}</div>
+                  <div className="text-muted small">{tr("text.7f8395a4c3")}</div>
                 </div>
                 <span className="pill-badge">70 / 30</span>
               </div>
@@ -92,25 +92,25 @@ export default function Grafica() {
                   </PieChart>
                 </ResponsiveContainer>
               </div>
-            </motion.div>
+            </Motion.div>
           </div>
 
           {/* Frontend */}
           <div className="col-12 col-lg-4">
-            <motion.div
+            <Motion.div
               className="info-card h-100"
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.35, delay: 0.1, ease: "easeOut" }}
             >
-              <div className="info-card-title">Frontend</div>
+              <div className="info-card-title">{tr("text.152d1cf2d9")}</div>
               <ul className="info-list mt-3 mb-0">
-                <li>React + Vite (Bootstrap / Tailwind)</li>
-                <li>Responsive design + UI components</li>
-                <li>Consumo de APIs + estados</li>
-                <li>Interactividad con JavaScript moderno</li>
+                <li>{tr("text.f7281282ed")}</li>
+                <li>{tr("text.a2b2f96037")}</li>
+                <li>{tr("text.e59a128264")}</li>
+                <li>{tr("text.c5a1fee429")}</li>
               </ul>
-            </motion.div>
+            </Motion.div>
           </div>
         </div>
       </div>

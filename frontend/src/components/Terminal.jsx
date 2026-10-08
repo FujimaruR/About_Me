@@ -1,9 +1,11 @@
+import { useLocale as useSiteLocale, t as tr, text as localizeText } from '../site/locale';
 import { useMemo, useRef, useState } from "react";
-import { motion } from "framer-motion";
+import { motion as Motion } from "framer-motion";
 
 const CV_URL = "/Resume-EmilioCastillo.pdf";
 
 export default function Terminal() {
+  useSiteLocale();
   const [input, setInput] = useState("");
   const [showCv, setShowCv] = useState(false);
 
@@ -65,7 +67,7 @@ export default function Terminal() {
       return;
     }
 
-    pushLine("err", `'${raw}' no se reconoce como un comando interno o externo.`);
+    pushLine("err", tr('terminal.unknown', { command: raw }));
     setShowCv(false);
   };
 
@@ -74,23 +76,18 @@ export default function Terminal() {
       <div className="container">
         <div className="d-flex flex-column flex-md-row align-items-md-end justify-content-between gap-2 mb-4">
           <div>
-            <h2 className="section-title mb-2">Curriculum</h2>
-            <p className="section-subtitle mb-0">
-              Terminal interactiva: escribe <b>help</b> o <b>curriculum</b>.
+            <h2 className="section-title mb-2">{tr("text.23364909eb")}</h2>
+            <p className="section-subtitle mb-0"> {tr("text.54e45d1dcb")} <b>{tr("text.92005ecf37")}</b> {tr("text.7a81af3e59")} <b>{tr("text.4a130aec07")}</b>.
             </p>
           </div>
 
           <div className="d-flex gap-2">
-            <a className="btn btn-primary rounded-pill px-3" href={CV_URL} target="_blank" rel="noreferrer">
-              Abrir CV
-            </a>
-            <a className="btn btn-outline-primary rounded-pill px-3" href={CV_URL} download>
-              Descargar
-            </a>
+            <a className="btn btn-primary rounded-pill px-3" href={CV_URL} target="_blank" rel="noreferrer"> {tr("text.0896ca9472")} </a>
+            <a className="btn btn-outline-primary rounded-pill px-3" href={CV_URL} download> {tr("text.8b98cb1da3")} </a>
           </div>
         </div>
 
-        <motion.div
+        <Motion.div
           className="terminal-shell"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -106,7 +103,7 @@ export default function Terminal() {
               <span className="dot dot-yellow" />
               <span className="dot dot-green" />
             </div>
-            <div className="terminal-title">Command Prompt — Emilio</div>
+            <div className="terminal-title">{tr("text.7a5aacbc48")}</div>
           </div>
 
           {/* Body */}
@@ -123,14 +120,14 @@ export default function Terminal() {
                       : "line line-out"
                   }
                 >
-                  {l.text}
+                  {localizeText(l.text)}
                 </div>
               ))}
             </div>
 
             {/* Input */}
             <div className="terminal-inputRow">
-              <span className="prompt">{prompt}</span>
+              <span className="prompt">{localizeText(prompt)}</span>
               <input
                 ref={inputRef}
                 value={input}
@@ -142,16 +139,16 @@ export default function Terminal() {
                   }
                 }}
                 className="terminal-input"
-                placeholder="Escribe un comando (help, curriculum, open, download, clear) y presiona Enter"
-                aria-label="Terminal command input"
+                placeholder={tr("text.117ec36b3c")}
+                aria-label={tr("text.7a2ae0d0d2")}
               />
             </div>
           </div>
-        </motion.div>
+        </Motion.div>
 
         {/* CV Preview */}
         {showCv && (
-          <motion.div
+          <Motion.div
             className="mt-4"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -159,14 +156,14 @@ export default function Terminal() {
           >
             <div className="cv-frame">
               <iframe
-                title="Resume PDF"
+                title={tr("text.51f288d62a")}
                 src={CV_URL}
                 width="100%"
                 height="900px"
                 style={{ border: 0 }}
               />
             </div>
-          </motion.div>
+          </Motion.div>
         )}
       </div>
     </section>

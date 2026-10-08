@@ -1,4 +1,5 @@
-import { motion } from "framer-motion";
+import { useLocale as useSiteLocale, t as tr, text as localizeText } from '../site/locale';
+import { motion as Motion } from "framer-motion";
 
 const skillGroups = [
   {
@@ -38,33 +39,32 @@ const item = {
 };
 
 export default function Skills() {
+  useSiteLocale();
   return (
     <section id="skills" className="section-wrap section-bg-1">
       <div className="container">
         <div className="text-center mb-5">
-          <h2 className="section-title mb-2">Skills</h2>
-          <p className="section-subtitle mx-auto">
-            Tecnologías y herramientas que uso para construir frontends modernos, backends sólidos y despliegues en producción.
-          </p>
+          <h2 className="section-title mb-2">{tr("text.e09212c7d3")}</h2>
+          <p className="section-subtitle mx-auto"> {tr("text.15c3b6dd3c")} </p>
         </div>
 
-        <motion.div className="row g-4" variants={container} initial="hidden" animate="show">
+        <Motion.div className="row g-4" variants={container} initial="hidden" animate="show">
           {skillGroups.map((group) => (
-            <motion.div key={group.title} variants={item} className="col-12 col-md-6 col-lg-4">
+            <Motion.div key={group.title} variants={item} className="col-12 col-md-6 col-lg-4">
               <div className="skill-card h-100">
-                <h5 className="skill-card-title">{group.title}</h5>
+                <h5 className="skill-card-title">{localizeText(group.title)}</h5>
 
                 <div className="d-flex flex-wrap gap-2 mt-3">
                   {group.skills.map((skill) => (
                     <span key={skill} className="skill-badge">
-                      {skill}
+                      {localizeText(skill)}
                     </span>
                   ))}
                 </div>
               </div>
-            </motion.div>
+            </Motion.div>
           ))}
-        </motion.div>
+        </Motion.div>
       </div>
     </section>
   );

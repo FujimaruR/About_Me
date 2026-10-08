@@ -1,15 +1,20 @@
+import { t as tr, useLocale } from './site/locale';
+import { lazy, Suspense } from 'react';
+import LocaleTools from './site/LocaleTools';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import SobreMi from './pages/SobreMi';
-import Proyectos from './pages/Proyectos';
-import Contacto from './pages/Contacto';
-import Portafolio from './pages/Portafolio';
-import Clientes from './pages/Clientes';
+const SobreMi = lazy(() => import('./pages/SobreMi'));
+const Proyectos = lazy(() => import('./pages/Proyectos'));
+const Contacto = lazy(() => import('./pages/Contacto'));
+const Portafolio = lazy(() => import('./pages/Portafolio'));
+
 
 function App() {
+  useLocale();
   return (
     <Router>
-      <Routes>
+      <LocaleTools />
+      <Suspense fallback={<p role="status">{tr("ui.loading")}</p>}><Routes>
         <Route path="/">
           <Route index element={<Home />} />
           <Route path="Home" element={<Home />} />
@@ -17,9 +22,8 @@ function App() {
           <Route exact path="/Proyectos" element={<Proyectos />}/>
           <Route exact path="/Contacto" element={<Contacto />}/>
           <Route exact path="/Portafolio/:id" element={<Portafolio />}/>
-          <Route exact path="/Clientes" element={<Clientes />}/>
         </Route>
-      </Routes>
+      </Routes></Suspense>
     </Router>
   );
 }

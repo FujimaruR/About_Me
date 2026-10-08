@@ -1,0 +1,1214 @@
+{
+  "language.label": {
+    "es": "Idioma",
+    "en": "Language"
+  },
+  "site.title": {
+    "es": "Emilio Yair Castillo Pacheco · Portafolio",
+    "en": "Emilio Yair Castillo Pacheco · Portfolio"
+  },
+  "site.description": {
+    "es": "Portafolio profesional de Emilio Yair Castillo Pacheco. Desarrollo, videojuegos y contacto profesional.",
+    "en": "Professional portfolio of Emilio Yair Castillo Pacheco. Development, video games and professional contact."
+  },
+  "text.7af1ffcca6": {
+    "es": "Ubicación",
+    "en": "Location"
+  },
+  "text.e68491e91c": {
+    "es": "Nombre",
+    "en": "Name"
+  },
+  "text.f07e1b890b": {
+    "es": "Tu nombre",
+    "en": "Your name"
+  },
+  "text.eb9e23efc4": {
+    "es": "Mensaje",
+    "en": "Message"
+  },
+  "text.1078cf414b": {
+    "es": "lazy",
+    "en": "lazy"
+  },
+  "text.71f8e7976e": {
+    "es": "none",
+    "en": "none"
+  },
+  "text.35414e5322": {
+    "es": "Resumen",
+    "en": "Summary"
+  },
+  "text.70f8bb9a8a": {
+    "es": "Inicio",
+    "en": "Home"
+  },
+  "text.d15068afb4": {
+    "es": "SOBRE MÍ",
+    "en": "ABOUT ME"
+  },
+  "text.8651ad7b61": {
+    "es": "Desarrollo software con enfoque en backend y soluciones reales.",
+    "en": "I develop software focused on backend systems and real solutions."
+  },
+  "text.dceb9dd6b9": {
+    "es": "Soy desarrollador de Nuevo León, México. Estudié",
+    "en": "I am a developer from Nuevo León, Mexico. I studied"
+  },
+  "text.eb74344ebf": {
+    "es": "Multimedia y Animación Digital",
+    "en": "Multimedia and Digital Animation"
+  },
+  "text.6eef415ce1": {
+    "es": "en la UANL (generación 2024), y me apasiona convertir ideas en productos bien construidos: rápidos, claros y mantenibles.",
+    "en": "at UANL (class of 2024), and I enjoy turning ideas into well-built products: fast, clear and maintainable."
+  },
+  "text.d8c2cd0bd5": {
+    "es": "Tengo",
+    "en": "I have"
+  },
+  "text.75a44a49ae": {
+    "es": "+2 años de experiencia profesional",
+    "en": "over two years of professional experience"
+  },
+  "text.50cae6f085": {
+    "es": "como consultor en",
+    "en": "as a consultant at"
+  },
+  "text.1ce95e4792": {
+    "es": "ITAdmin",
+    "en": "ITAdmin"
+  },
+  "text.0622958f5f": {
+    "es": ", donde hago soporte técnico y desarrollo de soluciones en",
+    "en": ", where I provide technical support and develop solutions in"
+  },
+  "text.07f030c695": {
+    "es": "Odoo (Python)",
+    "en": "Odoo (Python)"
+  },
+  "text.9fa0562ffc": {
+    "es": ", integraciones y automatización de procesos.",
+    "en": ", integrations and process automation."
+  },
+  "text.31e0d4c7d6": {
+    "es": "Mi stack combina",
+    "en": "My stack combines"
+  },
+  "text.4d1f996aa1": {
+    "es": "React",
+    "en": "React"
+  },
+  "text.f8228af8b4": {
+    "es": "para interfaces modernas con un backend sólido usando",
+    "en": "for modern interfaces with a solid backend using"
+  },
+  "text.6ef9e85b49": {
+    "es": "Node.js / Python",
+    "en": "Node.js / Python"
+  },
+  "text.f8f9bb684f": {
+    "es": ", bases de datos",
+    "en": ", databases"
+  },
+  "text.2064cb643c": {
+    "es": "SQL",
+    "en": "SQL"
+  },
+  "text.bfe3cbd666": {
+    "es": "y despliegue en",
+    "en": "and deployment on"
+  },
+  "text.b57a058d14": {
+    "es": "Linux / AWS",
+    "en": "Linux / AWS"
+  },
+  "text.65cdd9a986": {
+    "es": ". Me enfoco en construir sistemas",
+    "en": ". I focus on building systems that are"
+  },
+  "text.ad7fb3074b": {
+    "es": "escalables",
+    "en": "scalable"
+  },
+  "text.c0c6274a24": {
+    "es": ", seguros y con buen UX.",
+    "en": ", secure and offer a good user experience."
+  },
+  "text.24a7798eae": {
+    "es": "Resumen rápido",
+    "en": "Quick summary"
+  },
+  "text.c93bc80b01": {
+    "es": "Nuevo León, MX",
+    "en": "Nuevo León, MX"
+  },
+  "text.a73f1345df": {
+    "es": "Rol",
+    "en": "Role"
+  },
+  "text.ff88c7f616": {
+    "es": "Full Stack (enfoque en backend)",
+    "en": "Full Stack (Backend Focus)"
+  },
+  "text.bb17831a54": {
+    "es": "Especialidad",
+    "en": "Specialty"
+  },
+  "text.a9bb95fddc": {
+    "es": "Odoo (Python) + Web Apps",
+    "en": "Odoo (Python) + Web Apps"
+  },
+  "text.83e5a0d3d2": {
+    "es": "Stack",
+    "en": "Stack"
+  },
+  "text.3dc0bf3020": {
+    "es": "React · Node · Python · SQL",
+    "en": "React · Node · Python · SQL"
+  },
+  "text.303860cd96": {
+    "es": "Disponibilidad",
+    "en": "Availability"
+  },
+  "text.6c1751bf77": {
+    "es": "Remoto / Híbrido",
+    "en": "Remote / Hybrid"
+  },
+  "text.e04a85a2f2": {
+    "es": "Envíame un correo",
+    "en": "Send me an email"
+  },
+  "text.62ab018dca": {
+    "es": "Ver GitHub",
+    "en": "View GitHub"
+  },
+  "text.8541c1877e": {
+    "es": "Proyectos",
+    "en": "Projects"
+  },
+  "text.b640f4a98f": {
+    "es": "Todos mis proyectos en una sola vista. Filtra por tecnología o busca por nombre.",
+    "en": "All my projects in one view. Filter by technology or search by name."
+  },
+  "text.939d6a3481": {
+    "es": "Buscar proyectos",
+    "en": "Search projects"
+  },
+  "text.ebdacf68db": {
+    "es": "Buscar (React, AWS, Odoo...)",
+    "en": "Search (React, AWS, Odoo...)"
+  },
+  "text.e6255a1d49": {
+    "es": "Filtrar por tecnología",
+    "en": "Filter by technology"
+  },
+  "text.2d2dce4804": {
+    "es": "Mostrando",
+    "en": "Showing"
+  },
+  "text.600ccd1b71": {
+    "es": "de",
+    "en": "of"
+  },
+  "text.d3126bccac": {
+    "es": "Limpiar filtros",
+    "en": "Clear filters"
+  },
+  "text.dd27204535": {
+    "es": "games",
+    "en": "games"
+  },
+  "text.05134426bc": {
+    "es": "development",
+    "en": "development"
+  },
+  "text.18344456d7": {
+    "es": "Proyectos de videojuegos",
+    "en": "Video game projects"
+  },
+  "text.2ea9324cb3": {
+    "es": "Proyectos de desarrollo",
+    "en": "Development projects"
+  },
+  "text.308bfb3162": {
+    "es": "No hay proyectos en esta categoría con los filtros seleccionados.",
+    "en": "No projects in this category match the selected filters."
+  },
+  "text.16a2f62227": {
+    "es": "Destacado",
+    "en": "Featured"
+  },
+  "text.6a8c6812d0": {
+    "es": "Mensaje enviado con éxito. Te responderé lo antes posible.",
+    "en": "Message sent successfully. I will reply as soon as possible."
+  },
+  "text.c9ed35673b": {
+    "es": "No se pudo enviar el mensaje. Intenta de nuevo o contáctame por WhatsApp.",
+    "en": "Could not send the message. Try again or contact me via WhatsApp."
+  },
+  "text.7881287c38": {
+    "es": "¿Vacante u oportunidad de colaboración profesional? Escríbeme.",
+    "en": "A vacancy or professional collaboration opportunity? Get in touch."
+  },
+  "text.98a5efa60b": {
+    "es": "Título",
+    "en": "Title"
+  },
+  "text.67549c6e92": {
+    "es": "Asunto del correo",
+    "en": "Email subject"
+  },
+  "text.59a16700ff": {
+    "es": "Correo electrónico",
+    "en": "Email address"
+  },
+  "text.41d3f70f39": {
+    "es": "Cuéntame sobre la oportunidad profesional",
+    "en": "Tell me about the professional opportunity"
+  },
+  "text.21fc978c72": {
+    "es": "Enviando...",
+    "en": "Sending..."
+  },
+  "text.d43c17a26d": {
+    "es": "Abrir mi correo",
+    "en": "Open my email"
+  },
+  "text.a91a95517c": {
+    "es": "Enviar",
+    "en": "Send"
+  },
+  "text.1dccfaf6ad": {
+    "es": "Tip: también puedes contactarme por WhatsApp si prefieres una respuesta más rápida.",
+    "en": "Tip: you can also contact me via WhatsApp if you prefer a faster reply."
+  },
+  "text.5ed99b7148": {
+    "es": "Emilio Yair Castillo Pacheco",
+    "en": "Emilio Yair Castillo Pacheco"
+  },
+  "text.f16a8cf3e7": {
+    "es": "Desarrollador Full Stack · Enfoque en backend",
+    "en": "Full Stack Developer · Backend Focus"
+  },
+  "text.84add5b295": {
+    "es": "Email",
+    "en": "Email"
+  },
+  "text.5442e2b64f": {
+    "es": "GitHub",
+    "en": "GitHub"
+  },
+  "text.036b18f02a": {
+    "es": "Portafolio",
+    "en": "Portfolio"
+  },
+  "text.3c2a8144c2": {
+    "es": "· Creado con React y Vite",
+    "en": "· Built with React & Vite"
+  },
+  "text.b4a0595a41": {
+    "es": "Revisa mi código y proyectos",
+    "en": "Explore my code and projects"
+  },
+  "text.47c4452dc9": {
+    "es": "Aquí puedes ver repos, demos y avances de mis proyectos (web, backend y Odoo).",
+    "en": "Browse repositories, demos and progress on my web, backend and Odoo projects."
+  },
+  "text.f584f7a844": {
+    "es": "Ver mi GitHub",
+    "en": "View my GitHub"
+  },
+  "text.20cfe27a32": {
+    "es": "github.com/FujimaruR",
+    "en": "github.com/FujimaruR"
+  },
+  "text.5ffe533b83": {
+    "es": "true",
+    "en": "true"
+  },
+  "text.9cdddd55f4": {
+    "es": "evenodd",
+    "en": "evenodd"
+  },
+  "text.88d08928d8": {
+    "es": "M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z",
+    "en": "M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"
+  },
+  "text.e758ca6456": {
+    "es": "Backend",
+    "en": "Backend"
+  },
+  "text.152d1cf2d9": {
+    "es": "Frontend",
+    "en": "Frontend"
+  },
+  "text.46d8c890db": {
+    "es": "Distribución de conocimientos",
+    "en": "Knowledge distribution"
+  },
+  "text.0a7a4f8cb7": {
+    "es": "Enfoque principal en backend y arquitectura, manteniendo un frontend sólido y moderno.",
+    "en": "My primary focus is backend and architecture, with a strong, modern frontend."
+  },
+  "text.b3cf8b26c2": {
+    "es": "Node.js (Express / NestJS)",
+    "en": "Node.js (Express / NestJS)"
+  },
+  "text.4f7def8ca2": {
+    "es": "SQL (MySQL / PostgreSQL) + ORM (Prisma)",
+    "en": "SQL (MySQL / PostgreSQL) + ORM (Prisma)"
+  },
+  "text.5532ef5ccd": {
+    "es": "APIs REST, autenticación y seguridad básica",
+    "en": "REST APIs, authentication and basic security"
+  },
+  "text.b9b490fbb7": {
+    "es": "Deploy en Linux + cloud (AWS / Vercel)",
+    "en": "Deployment on Linux and cloud (AWS / Vercel)"
+  },
+  "text.90eef61304": {
+    "es": "Balance",
+    "en": "Balance"
+  },
+  "text.7f8395a4c3": {
+    "es": "Backend vs Frontend",
+    "en": "Backend vs Frontend"
+  },
+  "text.f32b67c7e2": {
+    "es": "value",
+    "en": "value"
+  },
+  "text.6ae999552a": {
+    "es": "name",
+    "en": "name"
+  },
+  "text.c03e9099aa": {
+    "es": "bottom",
+    "en": "bottom"
+  },
+  "text.f7281282ed": {
+    "es": "React + Vite (Bootstrap / Tailwind)",
+    "en": "React + Vite (Bootstrap / Tailwind)"
+  },
+  "text.a2b2f96037": {
+    "es": "Diseño adaptable y componentes de interfaz",
+    "en": "Responsive design + UI components"
+  },
+  "text.e59a128264": {
+    "es": "Consumo de APIs + estados",
+    "en": "API integration and state management"
+  },
+  "text.c5a1fee429": {
+    "es": "Interactividad con JavaScript moderno",
+    "en": "Interactivity with modern JavaScript"
+  },
+  "text.359ce548cf": {
+    "es": "Full Stack • React • Node • Python/Odoo",
+    "en": "Full Stack • React • Node • Python/Odoo"
+  },
+  "text.14b0e39141": {
+    "es": "Hola, soy Emilio Yair Castillo Pacheco",
+    "en": "Hi, I am Emilio Yair Castillo Pacheco"
+  },
+  "text.b7701dba45": {
+    "es": "Desarrollador Full-Stack",
+    "en": "Full Stack Developer"
+  },
+  "text.c3dc66ba6b": {
+    "es": "Construyo interfaces modernas y backends sólidos para soluciones escalables: APIs, bases de datos y despliegues en la nube.",
+    "en": "I build modern interfaces and solid backends for scalable solutions: APIs, databases and cloud deployments."
+  },
+  "text.397013850a": {
+    "es": "Contáctame",
+    "en": "Contact me"
+  },
+  "text.9c3fda0a86": {
+    "es": "Ver proyectos",
+    "en": "View projects"
+  },
+  "text.6f4c7cf103": {
+    "es": "2+ años",
+    "en": "2+ years"
+  },
+  "text.2de7b8a3b7": {
+    "es": "Consultoría / ERP",
+    "en": "Consulting / ERP"
+  },
+  "text.ea83d52928": {
+    "es": "React + UX",
+    "en": "React + UX"
+  },
+  "text.1eff88a083": {
+    "es": "Node / Python",
+    "en": "Node / Python"
+  },
+  "text.fb4192a0d1": {
+    "es": "Deploy",
+    "en": "Deploy"
+  },
+  "text.f8724f2f47": {
+    "es": "AWS / Vercel",
+    "en": "AWS / Vercel"
+  },
+  "text.fe7070be78": {
+    "es": "Proyecto no encontrado.",
+    "en": "Project not found."
+  },
+  "text.9ecdf4f641": {
+    "es": "Volver a proyectos",
+    "en": "Back to projects"
+  },
+  "text.c69a2fee98": {
+    "es": "← Volver",
+    "en": "← Back"
+  },
+  "text.10ea8c53b0": {
+    "es": "Ver demo",
+    "en": "View demo"
+  },
+  "text.81a05566b3": {
+    "es": "Caso de estudio",
+    "en": "Case Study"
+  },
+  "text.b1bb8ea50e": {
+    "es": "Detalles",
+    "en": "Details"
+  },
+  "text.39f8c37c36": {
+    "es": "Vista destacada",
+    "en": "Featured view"
+  },
+  "text.ac4995a792": {
+    "es": "Captura destacada",
+    "en": "Featured screenshot"
+  },
+  "text.610fd6d28a": {
+    "es": "Tecnologías y notas",
+    "en": "Technologies and notes"
+  },
+  "text.b071a2de11": {
+    "es": "Resumen técnico",
+    "en": "Technical summary"
+  },
+  "text.83fce83274": {
+    "es": "Logo",
+    "en": "Logo"
+  },
+  "text.c2d4caa1cb": {
+    "es": "Emilio Castillo",
+    "en": "Emilio Castillo"
+  },
+  "text.c108c83a8f": {
+    "es": "Desarrollador Full Stack",
+    "en": "Full Stack Developer"
+  },
+  "text.86d3bfb618": {
+    "es": "collapse",
+    "en": "collapse"
+  },
+  "text.12aa291d72": {
+    "es": "#navPill",
+    "en": "#navPill"
+  },
+  "text.7cb6efb98b": {
+    "es": "false",
+    "en": "false"
+  },
+  "text.1ec0b00d7e": {
+    "es": "Toggle navigation",
+    "en": "Toggle navigation"
+  },
+  "text.415280f061": {
+    "es": "Sobre mí",
+    "en": "About me"
+  },
+  "text.82a063f4ef": {
+    "es": "Selección de proyectos con enfoque en frontend, backend y videojuegos.",
+    "en": "Selected projects focused on frontend, backend and video games."
+  },
+  "text.d0d3d306c8": {
+    "es": "Ver todos",
+    "en": "View all"
+  },
+  "text.1ab37bb1d1": {
+    "es": "Lenguajes de programación",
+    "en": "Programming Languages"
+  },
+  "text.4a84732290": {
+    "es": "Backend y frameworks",
+    "en": "Backend & Frameworks"
+  },
+  "text.43ca5f4981": {
+    "es": "Bases de datos y formatos",
+    "en": "Databases & Data Formats"
+  },
+  "text.9182865005": {
+    "es": "Nube, DevOps y sistemas",
+    "en": "Cloud, DevOps & Systems"
+  },
+  "text.8016ed39c8": {
+    "es": "Otras herramientas y conceptos",
+    "en": "Other Tools & Concepts"
+  },
+  "text.e09212c7d3": {
+    "es": "Habilidades",
+    "en": "Skills"
+  },
+  "text.15c3b6dd3c": {
+    "es": "Tecnologías y herramientas que uso para construir frontends modernos, backends sólidos y despliegues en producción.",
+    "en": "Technologies and tools I use to build modern frontends, solid backends and production deployments."
+  },
+  "text.9cf2d21e98": {
+    "es": "EmilioOS v1.0 — Terminal lista.",
+    "en": "EmilioOS v1.0 — Terminal ready."
+  },
+  "text.b6c87d41c2": {
+    "es": "Escribe 'help' para ver comandos disponibles.",
+    "en": "Type 'help' to see the available commands."
+  },
+  "text.7422e96e38": {
+    "es": "Terminal vaciada.",
+    "en": "Terminal cleared."
+  },
+  "text.23364909eb": {
+    "es": "Curriculum",
+    "en": "Résumé"
+  },
+  "text.54e45d1dcb": {
+    "es": "Terminal interactiva: escribe",
+    "en": "Interactive terminal: type"
+  },
+  "text.92005ecf37": {
+    "es": "help",
+    "en": "help"
+  },
+  "text.7a81af3e59": {
+    "es": "o",
+    "en": "or"
+  },
+  "text.4a130aec07": {
+    "es": "curriculum",
+    "en": "curriculum"
+  },
+  "text.0896ca9472": {
+    "es": "Abrir CV",
+    "en": "Open résumé"
+  },
+  "text.8b98cb1da3": {
+    "es": "Descargar",
+    "en": "Download"
+  },
+  "text.7a5aacbc48": {
+    "es": "Command Prompt — Emilio",
+    "en": "Command Prompt — Emilio"
+  },
+  "text.117ec36b3c": {
+    "es": "Escribe un comando (help, curriculum, open, download, clear) y presiona Enter",
+    "en": "Type a command (help, curriculum, open, download, clear) and press Enter"
+  },
+  "text.7a2ae0d0d2": {
+    "es": "Entrada de comandos",
+    "en": "Terminal command input"
+  },
+  "text.51f288d62a": {
+    "es": "CV en PDF",
+    "en": "Resume PDF"
+  },
+  "text.0927635a28": {
+    "es": "900px",
+    "en": "900px"
+  },
+  "text.7adb131647": {
+    "es": "Hablemos por WhatsApp",
+    "en": "Let's talk on WhatsApp"
+  },
+  "text.949fbc6ee8": {
+    "es": "Si tienes una propuesta, proyecto o vacante, escríbeme directamente. Respondo rápido.",
+    "en": "If you have a proposal, project or vacancy, message me directly. I reply promptly."
+  },
+  "text.b25cabb544": {
+    "es": "Enviar mensaje",
+    "en": "Send message"
+  },
+  "text.ab5b2b5962": {
+    "es": "M16 0C7.164 0 0 7.164 0 16c0 2.82.734 5.467 2.012 7.774L0 32l8.425-2.012A15.94 15.94 0 0 0 16 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm0 29.333a13.27 13.27 0 0 1-6.81-1.86l-.49-.29-5 1.195 1.336-4.87-.318-.5A13.27 13.27 0 0 1 2.667 16C2.667 8.66 8.66 2.667 16 2.667S29.333 8.66 29.333 16 23.34 29.333 16 29.333zm7.36-9.587c-.402-.201-2.375-1.172-2.743-1.307-.368-.134-.635-.201-.902.201-.268.402-1.036 1.307-1.27 1.575-.234.268-.469.301-.87.1-.402-.201-1.695-.625-3.23-1.994-1.194-1.065-2-2.379-2.234-2.78-.234-.402-.025-.62.176-.82.18-.179.402-.469.603-.703.201-.234.268-.402.402-.67.134-.268.067-.502-.034-.703-.1-.201-.902-2.174-1.235-2.98-.325-.78-.656-.674-.902-.687l-.77-.013c-.268 0-.703.1-1.07.502-.368.402-1.403 1.37-1.403 3.34 0 1.97 1.437 3.873 1.637 4.14.201.268 2.83 4.324 6.86 6.064.958.413 1.705.66 2.287.844.961.305 1.835.262 2.526.159.77-.115 2.375-.97 2.71-1.906.335-.936.335-1.74.234-1.906-.1-.167-.368-.268-.77-.469z",
+    "en": "M16 0C7.164 0 0 7.164 0 16c0 2.82.734 5.467 2.012 7.774L0 32l8.425-2.012A15.94 15.94 0 0 0 16 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm0 29.333a13.27 13.27 0 0 1-6.81-1.86l-.49-.29-5 1.195 1.336-4.87-.318-.5A13.27 13.27 0 0 1 2.667 16C2.667 8.66 8.66 2.667 16 2.667S29.333 8.66 29.333 16 23.34 29.333 16 29.333zm7.36-9.587c-.402-.201-2.375-1.172-2.743-1.307-.368-.134-.635-.201-.902.201-.268.402-1.036 1.307-1.27 1.575-.234.268-.469.301-.87.1-.402-.201-1.695-.625-3.23-1.994-1.194-1.065-2-2.379-2.234-2.78-.234-.402-.025-.62.176-.82.18-.179.402-.469.603-.703.201-.234.268-.402.402-.67.134-.268.067-.502-.034-.703-.1-.201-.902-2.174-1.235-2.98-.325-.78-.656-.674-.902-.687l-.77-.013c-.268 0-.703.1-1.07.502-.368.402-1.403 1.37-1.403 3.34 0 1.97 1.437 3.873 1.637 4.14.201.268 2.83 4.324 6.86 6.064.958.413 1.705.66 2.287.844.961.305 1.835.262 2.526.159.77-.115 2.375-.97 2.71-1.906.335-.936.335-1.74.234-1.906-.1-.167-.368-.268-.77-.469z"
+  },
+  "text.a09409234f": {
+    "es": "Alitas-Bonnibel-Pro",
+    "en": "Alitas-Bonnibel-Pro"
+  },
+  "text.03b27a3497": {
+    "es": "Demo de un desarrollo web Pro para un restaurante.",
+    "en": "Demo of a Pro website for a restaurant."
+  },
+  "text.7097974bbf": {
+    "es": "Demo completa de una restaurante de alitas. Incluye Menus, carrito de compras, LandingPage, Nosotros, Sucursales, Contacto y panel Admin.",
+    "en": "Restaurant website demo. Includes menus, shopping cart, landing page, about, branches, contact and an admin panel."
+  },
+  "text.c6267c2844": {
+    "es": "Aplicación web diseñada para mostrar lo que seria un desarrollo web enfocado en un restaurante. Incluye Menu, Sobre Nosotros, Ubicacion, Contacto, carrito, sistema de pagos y panel Admin para gestion.",
+    "en": "Web application illustrating a restaurant website. Includes menu, about, location, contact, cart, payment integration and an admin management panel."
+  },
+  "text.19d895c348": {
+    "es": "El proyecto fue desarrollado con Vite y TailWind, utilizando Nest.JS + Prisma para la gestión de datos. Link de GitHub: https://github.com/FujimaruR/Alitas-Bonnibel Link de la pagina web: https://alitas-bonnibel.vercel.app/",
+    "en": "Developed with Vite and Tailwind, using NestJS and Prisma for data management. GitHub: https://github.com/FujimaruR/Alitas-Bonnibel Website: https://alitas-bonnibel.vercel.app/"
+  },
+  "text.e6bcd93740": {
+    "es": "Cafe-Bonnibel-Pro",
+    "en": "Cafe-Bonnibel-Pro"
+  },
+  "text.54af98fffd": {
+    "es": "Demo de un desarrollo web Pro para una cafeteria.",
+    "en": "Demo of a Pro website for a café."
+  },
+  "text.1f75033334": {
+    "es": "Demo completa de una cafeteria. Incluye Menus, carrito de compras, LandingPage, Nosotros, Sucursales, Contacto y panel Admin",
+    "en": "Café website demo. Includes menus, shopping cart, landing page, about, branches, contact and an admin panel."
+  },
+  "text.4d855ab8b6": {
+    "es": "Aplicación web diseñada para mostrar lo que seria un desarrollo web enfocado en una cafeteria. Incluye Menu, Sobre Nosotros, Ubicacion, Contacto, carrito y sistema de pagos.",
+    "en": "Web application illustrating a café website. Includes menu, about, location, contact, cart and payment integration."
+  },
+  "text.e903e935f9": {
+    "es": "El proyecto fue desarrollado con Vite y TailWind, utilizando Supabase para la gestión de datos. Link de GitHub: https://github.com/FujimaruR/cafe-bonnibel-pro Link de la pagina web: https://cafe-bonnibel-pro.vercel.app/",
+    "en": "Developed with Vite and Tailwind, using Supabase for data management. GitHub: https://github.com/FujimaruR/cafe-bonnibel-pro Website: https://cafe-bonnibel-pro.vercel.app/"
+  },
+  "text.3c03b00c64": {
+    "es": "Cafe-Bonnibel-Plus",
+    "en": "Cafe-Bonnibel-Plus"
+  },
+  "text.c02385a96b": {
+    "es": "Demo de un desarrollo web Plus para una cafeteria.",
+    "en": "Demo of a Plus website for a café."
+  },
+  "text.f2ce6012da": {
+    "es": "Demo de una cafeteria. Incluye Menus y vistas que necesitaria una cafeteria.",
+    "en": "Café demo with menus and café website pages."
+  },
+  "text.bbe2b128c7": {
+    "es": "Aplicación web diseñada para mostrar lo que seria un desarrollo web enfocado en una cafeteria. Incluye Menu, Sobre Nosotros, Ubicacion y Contacto.",
+    "en": "Web application illustrating a café website. Includes menu, about, location and contact."
+  },
+  "text.3b8395bc52": {
+    "es": "El proyecto fue desarrollado con Vite y TailWind. Link de GitHub: https://github.com/FujimaruR/cafe-bonnibel-plus Link de la pagina web: https://cafe-bonnibel-plus.vercel.app/",
+    "en": "Developed with Vite and Tailwind. GitHub: https://github.com/FujimaruR/cafe-bonnibel-plus Website: https://cafe-bonnibel-plus.vercel.app/"
+  },
+  "text.d3cd41182e": {
+    "es": "Cafe-Bonnibel-Basic",
+    "en": "Cafe-Bonnibel-Basic"
+  },
+  "text.38bec7a061": {
+    "es": "Demo de un desarrollo web Basic para una cafeteria.",
+    "en": "Demo of a Basic website for a café."
+  },
+  "text.e2a41c57bf": {
+    "es": "Demo de una cafeteria sencilla. Incluye solamente landingpage con su menu e informacion necesaria.",
+    "en": "Simple café demo with a landing page, menu and essential information."
+  },
+  "text.7e034ee992": {
+    "es": "Aplicación web diseñada para mostrar lo que seria un desarrollo web enfocado en una cafeteria. Incluye landingpage que muestra el menu, ubicacion y contacto.",
+    "en": "Web application illustrating a café website. The landing page displays menu, location and contact information."
+  },
+  "text.e12ff9f82d": {
+    "es": "El proyecto fue desarrollado con Vite y TailWind. Link de GitHub: https://github.com/FujimaruR/cafe-bonnibel Link de la pagina web: https://cafe-bonnibel-basic.vercel.app/",
+    "en": "Developed with Vite and Tailwind. GitHub: https://github.com/FujimaruR/cafe-bonnibel Website: https://cafe-bonnibel-basic.vercel.app/"
+  },
+  "text.ff0a7b86b5": {
+    "es": "Reportes FIME",
+    "en": "Reportes FIME"
+  },
+  "text.c47c411a16": {
+    "es": "Plataforma desarrollada para la Facultad de Ingeniería Mecánica y Eléctrica (FIME) con el fin de gestionar evaluaciones académicas.",
+    "en": "Platform developed for the Faculty of Mechanical and Electrical Engineering (FIME) to manage academic assessments."
+  },
+  "text.dd48a0ccef": {
+    "es": "Aplicación web en React que facilita la calificación y seguimiento del desempeño de los alumnos en FIME.",
+    "en": "React web application for grading and tracking student performance at FIME."
+  },
+  "text.062a2535d5": {
+    "es": "Aplicación web diseñada para que los docentes califiquen a los alumnos y se genere un registro integral de cada curso. Incluye encuestas de retroalimentación, administración de información académica y gestión centralizada de reportes.",
+    "en": "Web application for teachers to grade students and maintain course records. Includes feedback surveys, academic information management and centralized reports."
+  },
+  "text.4eca3c8b5f": {
+    "es": "El proyecto fue desarrollado con React y Node.js, utilizando SQL para la gestión de datos. Se desplegó en una máquina virtual Linux en AWS EC2, lo que representó un reto técnico por la configuración del entorno de producción y el manejo de servicios en la nube.",
+    "en": "Developed with React and Node.js, using SQL for data management. Deployed to a Linux virtual machine on AWS EC2, involving production environment configuration and cloud service management."
+  },
+  "text.f3afdaee93": {
+    "es": "Micherry",
+    "en": "Micherry"
+  },
+  "text.d8f9940ade": {
+    "es": "Plataforma de comercio electrónico inspirada en el modelo de Aliexpress.",
+    "en": "E-commerce platform inspired by AliExpress."
+  },
+  "text.14b53974f0": {
+    "es": "Desarrollo de una tienda en línea para compra y venta de productos con funcionalidades de usuario y vendedor.",
+    "en": "Online store for buying and selling products, with buyer and seller features."
+  },
+  "text.5828b9fead": {
+    "es": "Sistema e-commerce donde los usuarios pueden registrarse para comprar, guardar favoritos, comentar y reseñar productos. Los vendedores tienen acceso a paneles de gestión, publicación de artículos y chats con clientes.",
+    "en": "E-commerce system where users register, buy products, save favorites, comment and review. Sellers have management panels, product publishing and customer chats."
+  },
+  "text.e67e39e426": {
+    "es": "Se utilizó XAMPP como entorno de desarrollo local y phpMyAdmin para la administración de la base de datos. El backend fue desarrollado en PHP con integración a SQL.",
+    "en": "XAMPP was used for local development and phpMyAdmin for database administration. The backend was developed in PHP with SQL integration."
+  },
+  "text.ce107a91be": {
+    "es": "Tilted Reviews",
+    "en": "Tilted Reviews"
+  },
+  "text.cfc48dba7b": {
+    "es": "Plataforma social para calificación y reseña de videojuegos.",
+    "en": "Social platform for video game ratings and reviews."
+  },
+  "text.37a420717b": {
+    "es": "Aplicación web para que los usuarios reseñen, califiquen y compartan videojuegos.",
+    "en": "Web application for reviewing, rating and sharing video games."
+  },
+  "text.824474b7da": {
+    "es": "Portal en el que los jugadores pueden registrar cuentas, publicar reseñas de videojuegos, guardar títulos como favoritos, calificarlos y comentar. También permite explorar las listas y opiniones de otros usuarios.",
+    "en": "Players can register, publish game reviews, save favorites, rate and comment. They can also browse other users' lists and opinions."
+  },
+  "text.33243d9c56": {
+    "es": "Se empleó XAMPP como entorno de prueba y phpMyAdmin para la base de datos. El frontend fue desarrollado en React y se integró con una base de datos SQL.",
+    "en": "XAMPP was used for testing and phpMyAdmin for the database. The React frontend integrates with a SQL database."
+  },
+  "text.0f38cd4ff3": {
+    "es": "Mejora a Los Legendarios",
+    "en": "Los Legendarios redesign"
+  },
+  "text.f7bff7f7ef": {
+    "es": "Proyecto personal para rediseñar y optimizar la página web de Los Legendarios.",
+    "en": "Personal project to redesign and optimize the Los Legendarios website."
+  },
+  "text.aa03ba1b60": {
+    "es": "Rediseño web con enfoque en estética y experiencia de usuario, desarrollado como proyecto personal.",
+    "en": "Personal website redesign focused on visual design and user experience."
+  },
+  "text.bdc277a726": {
+    "es": "Sitio web con mejoras en la interfaz visual y usabilidad. Incluye módulos de menú, facturación, promociones y localización de sucursales.",
+    "en": "Website with improvements to its interface and usability. Includes menu, billing, promotions and branch locations."
+  },
+  "text.a1525b4b9a": {
+    "es": "Se utilizó NetBeans con servidor Tomcat para la implementación. El backend fue desarrollado en Java con MySQL como base de datos.",
+    "en": "Implemented with NetBeans and Tomcat. The backend uses Java and MySQL."
+  },
+  "text.405149f5d7": {
+    "es": "VetBuddy",
+    "en": "VetBuddy"
+  },
+  "text.c61da03f26": {
+    "es": "Aplicación móvil para reservas en clínicas veterinarias.",
+    "en": "Mobile application for bookings at veterinary clinics."
+  },
+  "text.e546741cd7": {
+    "es": "App Android que permite a los usuarios registrar mascotas y reservar consultas veterinarias.",
+    "en": "Android app for registering pets and booking veterinary consultations."
+  },
+  "text.2db65829b1": {
+    "es": "Aplicación en Android que permite a los usuarios gestionar sus mascotas y reservar citas con diferentes doctores veterinarios. La plataforma centraliza información de clientes y mascotas.",
+    "en": "Android application for managing pets and booking appointments with veterinarians. It centralizes customer and pet information."
+  },
+  "text.8034f98c8f": {
+    "es": "El desarrollo se realizó en Android Studio utilizando Kotlin. La persistencia de datos se manejó en un servidor con phpMyAdmin.",
+    "en": "Developed in Android Studio with Kotlin. Data persistence was handled on a server with phpMyAdmin."
+  },
+  "text.7b6f18de25": {
+    "es": "Punto de Venta para hotel",
+    "en": "Hotel point of sale"
+  },
+  "text.585d0b52e2": {
+    "es": "Sistema de gestión de ventas y reservaciones para hoteles.",
+    "en": "Sales and reservation management system for hotels."
+  },
+  "text.52bf248d52": {
+    "es": "Aplicación de escritorio para reservas, control de habitaciones y administración de clientes.",
+    "en": "Desktop application for reservations, room management and customer administration."
+  },
+  "text.96e841b272": {
+    "es": "Software para Windows que gestiona clientes, asignación de habitaciones y control de información administrativa. Los administradores pueden configurar habitaciones y supervisar la operación del hotel.",
+    "en": "Windows software for managing customers, room allocation and administrative information. Administrators can configure rooms and monitor hotel operations."
+  },
+  "text.1504e04fa8": {
+    "es": "El sistema fue desarrollado en C# para Windows. La base de datos se implementó en SQL.",
+    "en": "Developed in C# for Windows with a SQL database."
+  },
+  "text.9ced45d30d": {
+    "es": "Videojuego Web",
+    "en": "Web video game"
+  },
+  "text.04701596e0": {
+    "es": "Videojuego 3D de disparos desarrollado para navegadores.",
+    "en": "3D shooter developed for browsers."
+  },
+  "text.3b1752f498": {
+    "es": "Shooter 3D en navegador con modo multijugador local.",
+    "en": "Browser-based 3D shooter with local multiplayer."
+  },
+  "text.652bd4fbb6": {
+    "es": "Juego en el que el usuario controla una nave que debe esquivar meteoritos y recolectar power-ups. Incluye soporte multijugador local para mayor dinamismo.",
+    "en": "A game where the player controls a ship, avoids meteors and collects power-ups. Includes local multiplayer support."
+  },
+  "text.a6a3a5af5b": {
+    "es": "El lenguaje principal fue JavaScript. Los gráficos 3D se desarrollaron con WebGL y Three.js.",
+    "en": "Developed mainly in JavaScript, with 3D graphics using WebGL and Three.js."
+  },
+  "text.f26246d5ba": {
+    "es": "Aplicacion de edicion de imagenes y video",
+    "en": "Image and video editor"
+  },
+  "text.fb5fd80d93": {
+    "es": "Software de escritorio para edición multimedia y reconocimiento en tiempo real.",
+    "en": "Desktop software for multimedia editing and real-time recognition."
+  },
+  "text.283efd3dc1": {
+    "es": "Aplicación de Windows para edición de fotos, videos y detección facial mediante cámara.",
+    "en": "Windows application for photo and video editing and camera-based face detection."
+  },
+  "text.49bff56e65": {
+    "es": "Aplicación en Windows que permite importar imágenes y videos para aplicar filtros, realizar ediciones y activar la cámara con reconocimiento facial en tiempo real.",
+    "en": "Windows application for importing images and videos, applying filters, editing and enabling real-time facial recognition through a camera."
+  },
+  "text.8e20f6a126": {
+    "es": "Desarrollado en Visual Studio 2022 utilizando C#. Incluye integración con librerías de reconocimiento de imagen.",
+    "en": "Developed in Visual Studio 2022 with C#, including image recognition libraries."
+  },
+  "text.0177fcc003": {
+    "es": "Katastrofa",
+    "en": "Katastrofa"
+  },
+  "text.1c6573ffeb": {
+    "es": "Shooter multijugador desarrollado en Unreal Engine 5.",
+    "en": "Multiplayer shooter developed in Unreal Engine 5."
+  },
+  "text.691b478465": {
+    "es": "Videojuego de disparos en tercera persona con temática de zombies.",
+    "en": "Third-person video game with a zombie theme."
+  },
+  "text.49d6ad8fa2": {
+    "es": "Juego multijugador en tercera persona donde los jugadores deben enfrentarse a equipos rivales mientras sobreviven a oleadas de zombies. Combina acción y estrategia en escenarios dinámicos.",
+    "en": "Third-person multiplayer game in which players fight rival teams while surviving zombie waves. Combines action and strategy in dynamic environments."
+  },
+  "text.d2cf2d7041": {
+    "es": "Desarrollado en Unreal Engine 5. Se utilizaron modelos propios y recursos externos.",
+    "en": "Developed in Unreal Engine 5 using original models and external assets."
+  },
+  "text.2e522e4294": {
+    "es": "Pizza Grafica",
+    "en": "Pizza Grafica"
+  },
+  "text.23ee5f0b81": {
+    "es": "Videojuego 3D de reparto de pizzas desarrollado en C++.",
+    "en": "3D pizza delivery game developed in C++."
+  },
+  "text.2a501b83c2": {
+    "es": "Juego en el que el jugador debe entregar pizzas a tiempo para mantener su reputación.",
+    "en": "Players deliver pizzas on time to maintain their reputation."
+  },
+  "text.19572a0b69": {
+    "es": "El jugador asume el rol de repartidor de pizzas y debe cumplir con las entregas antes de que el tiempo expire, evitando perder reputación en el proceso.",
+    "en": "The player acts as a pizza delivery driver and must complete deliveries before time runs out to avoid losing reputation."
+  },
+  "text.aa40590922": {
+    "es": "Se utilizó Visual Studio 2022 con DirectX para el desarrollo de los gráficos. El lenguaje principal fue C++ complementado con HLSL.",
+    "en": "Graphics were developed in Visual Studio 2022 with DirectX. The main language was C++, complemented by HLSL."
+  },
+  "text.7101551601": {
+    "es": "Simulador de alturas",
+    "en": "Height simulator"
+  },
+  "text.1c4b061984": {
+    "es": "Experiencia de realidad virtual en Unreal Engine 5 para enfrentar el miedo a las alturas.",
+    "en": "Virtual reality experience in Unreal Engine 5 for facing a fear of heights."
+  },
+  "text.61dc7e2405": {
+    "es": "Simulador VR diseñado para ayudar a usuarios a superar la acrofobia.",
+    "en": "VR simulator designed to help users face acrophobia."
+  },
+  "text.31076bb821": {
+    "es": "El jugador camina por una tabla suspendida a gran altura en un entorno de realidad virtual. El objetivo es brindar una experiencia controlada que apoye en la superación del miedo a las alturas.",
+    "en": "The player walks on a plank suspended high above the ground in virtual reality. The aim is a controlled experience for facing a fear of heights."
+  },
+  "text.78665dfac5": {
+    "es": "El desarrollo se realizó en Unreal Engine 5 con soporte de realidad virtual.",
+    "en": "Developed in Unreal Engine 5 with virtual reality support."
+  },
+  "text.1d455c6327": {
+    "es": "Documentacion",
+    "en": "Documentation"
+  },
+  "text.8a02375417": {
+    "es": "Documentación técnica y de ciberseguridad para simulaciones empresariales.",
+    "en": "Technical and cybersecurity documentation for business simulations."
+  },
+  "text.5f33e0664f": {
+    "es": "Compendio de documentación integral para un proyecto ficticio de SEDESOL.",
+    "en": "Comprehensive documentation for a fictional SEDESOL project."
+  },
+  "text.72ec17098f": {
+    "es": "Documentación completa de un proyecto simulado, con énfasis en ciberseguridad, cumplimiento normativo, gestión de calidad y planes de recuperación. Incluye manuales, matrices, propuestas técnicas y reportes de avance.",
+    "en": "Documentation for a simulated project, focused on cybersecurity, compliance, quality management and recovery plans. Includes manuals, matrices, technical proposals and progress reports."
+  },
+  "text.570506ecb2": {
+    "es": "La documentación incluye: - Políticas de Ciberseguridad (contraseñas, accesos, gestión de incidentes) - Documentación de Desarrollo (backlog, sprints, HLD, propuesta técnica) - Gestión de Calidad (ISO 27001, garantías, aviso de privacidad) - Operaciones (BCP, DRP, KPI, minutas) - RFC y entornos cloud (arquitectura, contenedores, SLA, análisis de riesgos) - Facturación y propuestas comerciales - SOW (definición de alcances y entregables)",
+    "en": "Documentation includes: - Cybersecurity policies (passwords, access, incident management) - Development documentation (backlog, sprints, HLD, technical proposal) - Quality management (ISO 27001, warranties, privacy notice) - Operations (BCP, DRP, KPI, meeting notes) - RFC and cloud environments (architecture, containers, SLA, risk analysis) - Billing and commercial proposals - SOW (scope and deliverables)"
+  },
+  "text.0c39e66b4e": {
+    "es": "Error cargando datos",
+    "en": "Could not load data"
+  },
+  "text.0538bd1331": {
+    "es": "No se pudo crear la orden",
+    "en": "Could not create the order"
+  },
+  "text.d5d91a501e": {
+    "es": "Error cargando dashboard",
+    "en": "Could not load the dashboard"
+  },
+  "text.e3a07dc540": {
+    "es": "Error cargando tablero",
+    "en": "Could not load the board"
+  },
+  "text.f2c33ecade": {
+    "es": "Error cargando órdenes",
+    "en": "Could not load orders"
+  },
+  "text.0fbc78e504": {
+    "es": "No se pudo actualizar el estatus",
+    "en": "Could not update the status"
+  },
+  "text.96bb80ab80": {
+    "es": "IN_PREPARATION",
+    "en": "Preparing"
+  },
+  "text.0a7b38b716": {
+    "es": "PENDING",
+    "en": "Pending"
+  },
+  "text.fc554d02b8": {
+    "es": "READY",
+    "en": "Ready"
+  },
+  "text.a29e4a4760": {
+    "es": "SERVED",
+    "en": "Served"
+  },
+  "text.5587b0afcc": {
+    "es": "CANCELLED",
+    "en": "Canceled"
+  },
+  "text.9af0a9c042": {
+    "es": "DINE_IN",
+    "en": "Dine-in"
+  },
+  "text.d8b4c27638": {
+    "es": "TAKEOUT",
+    "en": "Takeout"
+  },
+  "text.34d4e4c718": {
+    "es": "DELIVERY",
+    "en": "Delivery"
+  },
+  "text.4a9768fab0": {
+    "es": "FREE",
+    "en": "Free"
+  },
+  "text.dc884b0a74": {
+    "es": "OCCUPIED",
+    "en": "Occupied"
+  },
+  "text.044eabc219": {
+    "es": "RESERVED",
+    "en": "Reserved"
+  },
+  "text.b521caa6e1": {
+    "es": "ADMIN",
+    "en": "Administrator"
+  },
+  "text.0e6a0fe992": {
+    "es": "KITCHEN",
+    "en": "Kitchen"
+  },
+  "text.baa596bec4": {
+    "es": "WAITER",
+    "en": "Waiter"
+  },
+  "text.17efca6aa2": {
+    "es": "Hola! Quiero información o hacer un pedido 🍗🔥",
+    "en": "Hi! I would like information or to place an order 🍗🔥"
+  },
+  "text.a27856714b": {
+    "es": "Comandos disponibles:",
+    "en": "Available commands:"
+  },
+  "text.a31b6eb700": {
+    "es": "  curriculum  -> muestra el CV aquí",
+    "en": "  curriculum  -> display the résumé here"
+  },
+  "text.0b33c97909": {
+    "es": "  open        -> abre el CV en una pestaña nueva",
+    "en": "  open        -> open the résumé in a new tab"
+  },
+  "text.57ceb009c6": {
+    "es": "  download    -> descarga el CV",
+    "en": "  download    -> download the résumé"
+  },
+  "text.bbbb21f6a5": {
+    "es": "  clear       -> limpia la terminal",
+    "en": "  clear       -> clear the terminal"
+  },
+  "text.d3c02cdfe8": {
+    "es": "  help        -> muestra esta ayuda",
+    "en": "  help        -> display this help"
+  },
+  "text.90708b1574": {
+    "es": "Abriendo CV...",
+    "en": "Opening résumé..."
+  },
+  "text.9437fd14d6": {
+    "es": "Descargando CV...",
+    "en": "Downloading résumé..."
+  },
+  "text.c22c9f7e8b": {
+    "es": "hace unos segundos",
+    "en": "a few seconds ago"
+  },
+  "text.62749e5a53": {
+    "es": "hace 1 min",
+    "en": "1 minute ago"
+  },
+  "text.ce56bfc089": {
+    "es": "tucorreo@ejemplo.com",
+    "en": "tucorreo@ejemplo.com"
+  },
+  "template.14501dae8a": {
+    "es": "{v0} - Imagen {v1}",
+    "en": "{v0} - Image {v1}"
+  },
+  "text.8be3c943b1": {
+    "es": "Contraseña",
+    "en": "Password"
+  },
+  "text.35c80f9645": {
+    "es": "URL de imagen",
+    "en": "Image URL"
+  },
+  "text.a3e06177ca": {
+    "es": "Alitas y boneless",
+    "en": "Wings & Boneless"
+  },
+  "text.3ac8e9e58c": {
+    "es": "Finalizar pedido",
+    "en": "Checkout"
+  },
+  "text.d87f47b47e": {
+    "es": "Resumen",
+    "en": "Dashboard"
+  },
+  "text.c0c3a27576": {
+    "es": "Comandos:",
+    "en": "Commands:"
+  },
+  "text.6d38bde033": {
+    "es": "curriculum - Muestra el CV en pantalla",
+    "en": "curriculum - Display the résumé on screen"
+  },
+  "text.26de87883d": {
+    "es": "open - Abre el CV en una nueva pestaña",
+    "en": "open - Open the résumé in a new tab"
+  },
+  "text.5151e1037e": {
+    "es": "download - Descarga el CV",
+    "en": "download - Download the résumé"
+  },
+  "text.13422fd4d7": {
+    "es": "clear - Limpia la terminal",
+    "en": "clear - Clear the terminal"
+  },
+  "text.295fab854e": {
+    "es": "Abriendo Resume-EmilioCastillo.pdf...",
+    "en": "Opening Resume-EmilioCastillo.pdf..."
+  },
+  "text.e83395fbb3": {
+    "es": "Abriendo CV en una nueva pestaña...",
+    "en": "Opening the résumé in a new tab..."
+  },
+  "ui.loading": {
+    "es": "Cargando…",
+    "en": "Loading…"
+  },
+  "terminal.unknown": {
+    "es": "'{command}' no se reconoce como un comando interno o externo.",
+    "en": "'{command}' is not recognized as a command."
+  },
+  "ui.navigation": {
+    "es": "Abrir navegación",
+    "en": "Open navigation"
+  },
+  "text.6143037c2d": {
+    "es": "Python (módulos de Odoo)",
+    "en": "Python (Odoo modules)"
+  },
+  "text.4dcf066300": {
+    "es": "APIs REST",
+    "en": "REST APIs"
+  },
+  "text.97229e1019": {
+    "es": "Fundamentos de CI/CD",
+    "en": "CI/CD basics"
+  },
+  "text.fd42ea9424": {
+    "es": "Autenticación y autorización",
+    "en": "Authentication & Authorization"
+  },
+  "text.77f24c969e": {
+    "es": "Sistemas CRUD",
+    "en": "CRUD Systems"
+  },
+  "text.326acebbe0": {
+    "es": "Arquitectura MVC",
+    "en": "MVC Architecture"
+  },
+  "text.eec1504523": {
+    "es": "Integración de APIs",
+    "en": "API Integration"
+  },
+  "text.fc62a87c5e": {
+    "es": "Documentación técnica",
+    "en": "Technical Documentation"
+  },
+  "text.ae178a4784": {
+    "es": "UX básico",
+    "en": "Basic UX"
+  },
+  "text.8a3c344036": {
+    "es": "Todas",
+    "en": "All"
+  },
+  "text.60f92f2f9b": {
+    "es": "Documentación",
+    "en": "Documentation"
+  },
+  "text.e6b1962159": {
+    "es": "Realidad Virtual",
+    "en": "Virtual reality"
+  },
+  "text.03730f6829": {
+    "es": "Papel profesional",
+    "en": "Professional role"
+  },
+  "text.2cf35c7a37": {
+    "es": "Contribución personal pendiente de documentar.",
+    "en": "Personal contribution has not yet been documented."
+  },
+  "text.0e1f2e2603": {
+    "es": "Estado no documentado.",
+    "en": "Status has not yet been documented."
+  },
+  "ui.validation": {
+    "es": "Revisa los campos obligatorios y el formato del correo.",
+    "en": "Check the required fields and the email format."
+  }
+}

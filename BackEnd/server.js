@@ -1,5 +1,5 @@
 const express = require('express');
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const cors = require('cors');
 
 const app = express();
@@ -13,11 +13,11 @@ app.listen(3001, '0.0.0.0', () => {
 });
 
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "about_me",
-  charset: 'utf8mb4' 
+  host: process.env.MYSQL_HOST || "localhost",
+  user: process.env.MYSQL_USER || "root",
+  password: process.env.MYSQL_PASSWORD || "",
+  database: process.env.MYSQL_DATABASE || "about_me",
+  charset: 'utf8mb4'
 });
 
 db.connect((err) => {

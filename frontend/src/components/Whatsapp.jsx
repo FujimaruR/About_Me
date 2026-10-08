@@ -1,12 +1,14 @@
-import { motion } from "framer-motion";
+import { useLocale as useSiteLocale, t as tr } from '../site/locale';
+import { motion as Motion } from "framer-motion";
 
 export default function Whatsapp() {
+  useSiteLocale();
   return (
     <section className="section-wrap section-bg-1" id="whatsapp">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-lg-10 col-xl-9">
-            <motion.div
+            <Motion.div
               className="whatsapp-card text-center"
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
@@ -16,14 +18,9 @@ export default function Whatsapp() {
                 <WhatsAppIcon />
               </div>
 
-              <h3 className="whatsapp-title mb-2">
-                Hablemos por WhatsApp
-              </h3>
+              <h3 className="whatsapp-title mb-2"> {tr("text.7adb131647")} </h3>
 
-              <p className="whatsapp-subtitle mb-4">
-                Si tienes una propuesta, proyecto o vacante, escríbeme directamente.
-                Respondo rápido.
-              </p>
+              <p className="whatsapp-subtitle mb-4"> {tr("text.949fbc6ee8")} </p>
 
               <div className="d-flex flex-column flex-sm-row justify-content-center gap-3">
                 <a
@@ -32,15 +29,13 @@ export default function Whatsapp() {
                   rel="noopener noreferrer"
                   className="btn whatsapp-btn rounded-pill px-4 py-2 fw-semibold d-inline-flex align-items-center justify-content-center gap-2"
                 >
-                  <WhatsAppIcon small />
-                  Enviar mensaje
-                </a>
+                  <WhatsAppIcon small /> {tr("text.b25cabb544")} </a>
 
                 <span className="whatsapp-phone">
                   +52 81 1892 5876
                 </span>
               </div>
-            </motion.div>
+            </Motion.div>
           </div>
         </div>
       </div>
@@ -49,6 +44,7 @@ export default function Whatsapp() {
 }
 
 function WhatsAppIcon({ small }) {
+  useSiteLocale();
   return (
     <svg
       width={small ? 18 : 42}

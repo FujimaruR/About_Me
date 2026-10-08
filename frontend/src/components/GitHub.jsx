@@ -1,12 +1,14 @@
-import { motion } from "framer-motion";
+import { useLocale as useSiteLocale, t as tr } from '../site/locale';
+import { motion as Motion } from "framer-motion";
 
 export default function GitHub() {
+  useSiteLocale();
   return (
     <section id="github" className="section-wrap section-bg-2">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-lg-10 col-xl-9">
-            <motion.div
+            <Motion.div
               className="github-card"
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
@@ -14,11 +16,9 @@ export default function GitHub() {
             >
               <div className="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
                 <div>
-                  <div className="github-kicker mb-2">GitHub</div>
-                  <h3 className="github-title mb-2">Revisa mi código y proyectos</h3>
-                  <p className="github-subtitle mb-0">
-                    Aquí puedes ver repos, demos y avances de mis proyectos (web, backend y Odoo).
-                  </p>
+                  <div className="github-kicker mb-2">{tr("text.5442e2b64f")}</div>
+                  <h3 className="github-title mb-2">{tr("text.b4a0595a41")}</h3>
+                  <p className="github-subtitle mb-0"> {tr("text.47c4452dc9")} </p>
                 </div>
 
                 <div className="d-flex flex-column align-items-stretch gap-2">
@@ -28,16 +28,12 @@ export default function GitHub() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <GitHubIcon />
-                    Ver mi GitHub
-                  </a>
+                    <GitHubIcon /> {tr("text.f584f7a844")} </a>
 
-                  <small className="text-muted text-center">
-                    github.com/FujimaruR
-                  </small>
+                  <small className="text-muted text-center"> {tr("text.20cfe27a32")} </small>
                 </div>
               </div>
-            </motion.div>
+            </Motion.div>
           </div>
         </div>
       </div>
@@ -46,6 +42,7 @@ export default function GitHub() {
 }
 
 function GitHubIcon() {
+  useSiteLocale();
   return (
     <svg
       width="20"
